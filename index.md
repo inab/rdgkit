@@ -14,11 +14,11 @@ Welcome to the **Research Data Governance Kit**. This toolkit provides guidance,
 
 Explore the core phases of the data governance framework below:
 
-* **[0. Global project definition](./phases/phase-0)** — Initial stage where project objectives, roles and responsibilities, quality and supervision mechanisms, and the scope of the data involved are established.
-* **[1. Legal and ethical aspects (ELSI)](./phases/phase-1)** — Management of ethical committees, consents, regulatory compliance, and secure processing of sensitive data.
-* **[2. Collection](./phases/phase-2)** — Definition and standardized collection of essential data, applying quality, traceability, and FAIR principles.
-* **[3. Normalization, Standardization, Harmonization](./phases/phase-3)** — Transformation processes (ETL), versioning, naming conventions, and practices ensuring reproducibility.
-* **[4. Availability](./phases/phase-4)** — Storage solutions, centralized/hybrid/federated data management, back-ups, and traceability.
-* **[5. Discoverability](./phases/phase-5)** — DCAT catalogues, metadata definition, sensitivity classification, and visibility policies.
-* **[6. Access](./phases/phase-6)** — Data Access Committees (DAC), access policies, cloud-based analysis vs. download, and robust authentication.
-* **[7. Processing and Analysis](./phases/phase-7)** — Federated and centralized processing, inputs/outputs, secure environments, and the 5-safes framework.
+* **[0. Global project definition](pages/lifecycle/0_definition.md)** — Initial stage where project objectives, roles and responsibilities, quality and supervision mechanisms, and the scope of the data involved are established.
+* **[1. Legal and ethical aspects (ELSI)](pages/lifecycle/1_elsi.md)** — Management of ethical committees, consents, regulatory compliance, and secure processing of sensitive data.
+* **[2. Collection](pages/lifecycle/2_collection.md)** — Definition and standardized collection of essential data, applying quality, traceability, and FAIR principles.
+* **[3. Normalization, Standardization, Harmonization](pages/lifecycle/3_normalization.md)** — Transformation processes (ETL), versioning, naming conventions, and practices ensuring reproducibility.
+* **[4. Availability](pages/lifecycle/4_availability.md)** — Storage solutions, centralized/hybrid/federated data management, back-ups, and traceability.
+* **[5. Discoverability](pages/lifecycle/5_discoverability.md)** — DCAT catalogues, metadata definition, sensitivity classification, and visibility policies.
+* **[6. Access](pages/lifecycle/6_access.md)** — Data Access Committees (DAC), access policies, cloud-based analysis vs. download, and robust authentication.
+* **[7. Processing and Analysis](pages/lifecycle/7_processing.md)** — Federated and centralized processing, inputs/outputs, secure environments, and the 5-safes framework.
