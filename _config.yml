@@ -1,0 +1,26 @@
+title: "Research Data Governance Kit"
+email: "example@example.com"
+description: "Data governance model and data life cycle documentation for research projects."
+
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@6.1.0
+
+baseurl: "/rdgkit" 
+url: "https://inab.github.io"
+
+repository: "inab/rdgkit"
+
+# Navigation and Structure
+sidebar: main
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      sitemap: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
