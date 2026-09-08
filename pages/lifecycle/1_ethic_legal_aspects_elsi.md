@@ -1,18 +1,15 @@
 ---
-title: "1. Legal and ethical aspects (ELSI)"
-layout: default
+title: "Phase 1. Legal and ethical aspects (ELSI)"
 description: "Data is obtained considering aspects such as ethical approval, consent and representativeness in the data, regulatory compliance, secure processing of sensitive data, and defined legal roles."
-type: lifecycle
 ---
 
-> **Warning:** This version is the initial version under construction.
+{: .warning }
+> This version is the initial version under construction.
 
-# Fase 1 - Legal and ethical aspects (ELSI)
-
-## 1. Description:
+## Description
 Data is obtained considering aspects such as ethical approval, consent and representativeness in the data, regulatory compliance, secure processing of sensitive data, and defined legal roles.
 
-## 2. Requirements:
+## Requirements
 * [ ] We have obtained ethical committee approval for data collection.
 * [ ] We have prepared and collected informed consent from all participants.
 * [ ] We comply with necessary data protection regulations (e.g. GDPR, EHDS, DGA, etc.).
@@ -20,7 +17,7 @@ Data is obtained considering aspects such as ethical approval, consent and repre
 * [ ] We have considered representativeness in our data (data properly reflects the needs of the study at a population, temporal, etc. level).
 * [ ] We have considered AI-related governance aspects - if applicable (bias, anonymization, risks in line with the AI Act...).
 
-## 3. Questions like ...
+## Questions like ...
 * Does the ethical committee approval cover all intended uses of the data?
 * Have I obtained explicit informed consent from all patients?
 * Do we guarantee that they can revoke that right according to legislation?
@@ -29,26 +26,27 @@ Data is obtained considering aspects such as ethical approval, consent and repre
 * What security, quality control, and audit mechanisms will I consider?
 * Have I clearly defined all measures and rules to guarantee ethical and legal compliance (ELSI) throughout the project?
 
-## 4. Roles:
+## Roles
 * Lorem Ipsum
 * Lorem Ipsum
 
-## 5. Specific practices:
+## Specific practices
 * **Practices that should be avoided:** Using governance regulations in a non-standardized manner.
 * **Practices that should be standardized:** Using existing governance regulations such as ISO/IEC 38505-1, GDPR, National Security Scheme (ENS), European Health Data Space (EHDS), and Digital Governance Act (DGA).
 
-## 6. Tools and resources:
+## Tools and resources
 * Lorem Ipsum
 * Lorem Ipsum
 
-## 7. Training:
+## Training
 * Lorem Ipsum
 * Lorem Ipsum
 
-## 8. ELSI:
+## ELSI
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
+
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 
-## 9. Security:
+## Security
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.

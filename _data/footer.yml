@@ -1,0 +1,26 @@
+copyright: '[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) RDGkit by [TechBioLab - BSC](https://www.bsc.es/discover-bsc/organisation/scientific-structure/life-sciences/technologies-for-biomedical-research) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), except where otherwise noted.'
+columns:
+  - type: links
+    title: Project
+    width: 4
+    children:
+      - url_text: About
+        url: /about
+      - url_text: How to contribute
+        url: /how_to_contribute
+  - type: links
+    title: Resources
+    width: 4
+    children:
+      - url_text: Roles
+        url: /roles
+      - url_text: Data lifecycle
+        url: /lifecycle
+  - type: links
+    title: Legal
+    width: 4
+    children:
+      - url_text: License
+        url: /LICENSE
+      - url_text: Privacy
+        url: /privacy

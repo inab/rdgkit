@@ -1,18 +1,15 @@
 ---
-title: "7. Processing and Analysis"
-layout: default
+title: "Phase 7. Processing and Analysis"
 description: "Ensures processing and analysis are secure, traceable, reproducible, and of high quality, with defined roles, policies, controls, and audits."
-type: lifecycle
 ---
 
-> **Warning:** This version is the initial version under construction.
+{: .warning }
+> This version is the initial version under construction.
 
-# Fase 7 - Processing and Analysis
-
-## 1. Description:
+## Description:
 Ensures processing and analysis are secure, traceable, reproducible, and of high quality, with defined roles, policies, controls, and audits.
 
-## 2. Requirements:
+## Requirements:
 * [ ] We have defined whether processing and analysis will be federated or centralized.
 * [ ] We have established data processing policies (e.g. sensitive data, purpose of use).
 * [ ] We have determined and specified where data is computed (e.g. local, national, European physical facilities) ensuring legal compliance and data security.
@@ -26,7 +23,7 @@ Ensures processing and analysis are secure, traceable, reproducible, and of high
 * [ ] We have defined how to share and reuse results derived from analysis.
 * [ ] We have documented algorithms, scripts, and analysis pipelines to ensure reproducibility.
 
-## 3. Questions like ...
+## Questions like ...
 * Have I defined whether data processing or analysis will be federated or centralized?
 * Can responsibles of each processing stage modify data or only consult it?
 * Have I defined what sensitive data requires special treatment? Which one?
@@ -39,26 +36,27 @@ Ensures processing and analysis are secure, traceable, reproducible, and of high
 * Have results been validated or independently reviewed when appropriate?
 * How will results be shared and reused?
 
-## 4. Roles:
+## Roles
 * Lorem Ipsum
 * Lorem Ipsum
 
-## 5. Specific practices:
+## Specific practices
+* **Practices that should be avoided:** Using governance regulations in a non-standardized manner.
+* **Practices that should be standardized:** Using existing governance regulations such as ISO/IEC 38505-1, GDPR, National Security Scheme (ENS), European Health Data Space (EHDS), and Digital Governance Act (DGA).
+
+## Tools and resources
 * Lorem Ipsum
 * Lorem Ipsum
 
-## 6. Tools and resources:
+## Training
 * Lorem Ipsum
 * Lorem Ipsum
 
-## 7. Training:
-* Lorem Ipsum
-* Lorem Ipsum
-
-## 8. ELSI:
+## ELSI
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
+
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 
-## 9. Security:
+## Security
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.

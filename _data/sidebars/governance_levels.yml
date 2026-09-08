@@ -1,0 +1,11 @@
+subitems:
+  - title: 1. Normative / strategic
+    url: /pages/levels/1_normative_strategic.html
+  - title: 2. Organizational / institutional
+    url: /pages/levels/2_organizational_institutional.html
+  - title: 3. Procedural
+    url: /pages/levels/3_procedural.html
+  - title: 4. Technical / operative
+    url: /pages/levels/4_technical_operative.html
+  - title: 5. Ethical / transversal
+    url: /pages/levels/5_ethical_transversal.html

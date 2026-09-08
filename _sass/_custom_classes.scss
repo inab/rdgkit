@@ -1,0 +1,279 @@
+/*-----General styling-----*/
+
+@include media-breakpoint-up(lg) {
+    main h1:not(.has-subtitle):not(.blurb-title),
+    main .h1:not(.has-subtitle) {
+        margin-top: -1rem;
+    }
+}
+
+.bg-light-x {
+    background-color: $light-x;
+}
+
+// Light gray background on the left
+@include media-breakpoint-up(lg) {
+    body:not(:has(.landingpage)) {
+        .anchorjs-link {
+            font-size: 0.7em !important;
+            padding-top: 0.3em;
+        }
+
+        #layout {
+            gap: 0 !important;
+        }
+        header nav.navbar {
+            margin-bottom: 0 !important;
+        }
+        aside#sidebar {
+            padding-top: $spacer * 3;
+            padding-right: 0.9rem;
+        }
+        main#main {
+            padding-top: $spacer * 3;
+            padding-left: 2.1rem;
+            background-color: $white;
+        }
+        background: linear-gradient(to right, $light 0 50%, $body-bg 50% 100%);    
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .sidebar-collapse {
+        background-color: $light;
+    }
+    #sidebar>nav .sidebar-title-wrapper {
+        background: $white;
+    }
+}
+
+#main {
+    min-height: 100vh;
+
+    h2,
+    .h2-like {
+        font-weight: 600;
+        margin-top: $spacer * 2.5;
+        margin-bottom: $spacer * 0.5;
+    }
+
+    h3 {
+        font-weight: 600;
+    }
+}
+
+.octicon {
+    margin-right: 0.25em;
+}
+
+/*-----Sidebar-----*/
+
+//RDM wheel in sidebar
+.sidebar_rdm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@include media-breakpoint-down(lg) {
+    .sidebar_rdm {
+        width: 200px;
+    }
+}
+
+#side-nav > ul {
+    margin-top: $spacer * 0.5;
+}
+
+/* -----Homepage----- */
+
+.landingpage, .ways-to-contribute  {
+    .card,
+    .landing-tile {
+        transition: $transition-base;
+
+        &:hover,
+        &:focus-within {
+            box-shadow: $box-shadow;
+        }
+    }
+
+    .card {
+        .card-img-top {
+            width: unset;
+            padding: $card-spacer-x $card-spacer-x 0 $card-spacer-x;
+        }
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-family: $font-family-theme;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-family: $font-family-theme;
+    }
+}
+
+// Icon sizing
+
+.h-icon-8 {
+    height: 8em;
+}
+.h-icon-6 {
+    height: 6em;
+}
+.h-icon-5 {
+    height: 5em;
+}
+.h-icon-4 {
+    height: 4em;
+}
+
+// Search box
+
+section#search-section {
+    form {
+        max-width: 600px;
+    }
+
+    #search-results {
+        right: unset;
+    }
+    .input-group-text {
+        font-size: 1.5rem;
+    }
+}
+
+// Counters on landing page
+
+.count-number {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+/*-----Section navigation tiles-----*/
+
+.navigation-tiles {
+    .card,
+    .btn {
+        &:hover {
+            box-shadow: $box-shadow;
+        }
+    }
+}
+
+
+
+/*-----Top navigation-----*/
+
+.navbar-nav .nav-item > a {
+    white-space: nowrap;
+}
+
+/*-----Better tools-----*/
+.tool {
+    border-radius: 1rem;
+    padding-right: 0.5rem;
+}
+
+/*-----New Icons-----*/
+
+.landingpage #search-label {
+    background-color: $white;
+}
+
+i.icon-search {
+    display: inline-block;
+    background: url("../img/section-icons/search.svg") center no-repeat;
+    width: 30px;
+    height: 30px;
+
+    &:before {
+        content: "" !important;
+    }
+}
+
+// Calendar
+.news-timeline-date i.icon-calendar,
+.event-card-icon i.icon-calendar {
+    display: inline-block;
+    background: url("../img/section-icons/calendar.svg") center no-repeat;
+    width: 17px;
+    height: 17px;
+    margin-bottom: -2px;
+
+    &:before {
+        content: "";
+    }
+}
+
+// Map pin
+.event-card-date i.icon-map-pin {
+    display: inline-block;
+    background: url("../img/section-icons/pin.svg") center no-repeat;
+    width: 17px;
+    height: 17px;
+    margin-bottom: -2px;
+
+    &:before {
+        content: "";
+    }
+}
+
+// Git branch
+.news-timeline-date i.icon-git-branch {
+    display: inline-block;
+    background: url("../img/section-icons/git.svg") center no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -2.5px;
+
+    &:before {
+        content: "";
+    }
+}
+
+/*-----News and events-----*/
+
+.news-timeline-date {
+    .news-metadata-item {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+}
+
+.event-card-date {
+    time {
+        white-space: nowrap;
+    }
+}
+
+// Tool snippet
+
+i.fa-solid.fa-wrench {
+    background: url("../img/section-icons/info2.svg") center no-repeat;
+    &:before {
+        content: "";
+    }
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-bottom: -0.25rem;
+}
+
+// Citation/Bibiography styling
+
+a.citation span {
+    font-size: small;
+}
+
+.bibliography { 
+    margin-top: 2rem; 
+} 

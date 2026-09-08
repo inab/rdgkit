@@ -1,0 +1,17 @@
+subitems:
+  - title: "0. Definition"
+    url: /pages/lifecycle/0_definition.html
+  - title: "1. Legal & ethical aspects (ELSI)"
+    url: /pages/lifecycle/1_ethic_legal_aspects_elsi.html
+  - title: "2. Data collection"
+    url: /pages/lifecycle/2_data_collection.html
+  - title: "3. Normalization, standardization & harmonization"
+    url: /pages/lifecycle/3_normalization_standarization_harmonization.html
+  - title: "4. Availability"
+    url: /pages/lifecycle/4_availability.html
+  - title: "5. Discoverability"
+    url: /pages/lifecycle/5_discoverability.html
+  - title: "6. Access"
+    url: /pages/lifecycle/6_access.html
+  - title: "7. Processing and analysis"
+    url: /pages/lifecycle/7_processing_and_analysis.html

@@ -9,18 +9,60 @@ url: "https://inab.github.io"
 
 repository: "inab/rdgkit"
 
+sass:
+  style: compressed
+  sourcemap: never
+
+theme_variables:
+  dev-info-banner: true
+  theme_color: 2b4f8d
+  fonts:
+    - https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap
+    - https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap
+  headings:
+    resource-table-all-collapse: true
+  topnav:
+   brand_logo: assets/img/rdgkit_prev_logo.png
+
+exclude:
+  - README.md
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE
+
 # Navigation and Structure
-sidebar: main
+#sidebar: main
 
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: "default"
+      layout: "page"
       sitemap: true
+  - scope:
+      path: "pages/lifecycle"
+    values:
+      sidebar: data_life_cycle
+  - scope:
+      path: "pages/levels"
+    values:
+      sidebar: governance_levels
+  - scope:
+      path: "pages/roles"
+    values:
+      sidebar: your_role
+  - scope:
+      path: "pages/resources"
+    values:
+      sidebar: tools_resources
 
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-relative-links
+  - jekyll-redirect-from
+  - jekyll-github-metadata
