@@ -1,11 +1,11 @@
 ---
-title: "Phase 2. Data collection"
+title: "2. Data collection"
 description: "Essential data is defined and collected in a standardized way, applying quality, traceability, FAIR principles, and clear roles to guarantee its subsequent correct and consistent use."
 
 ---
 
-{: .warning }
 > This version is the initial version under construction.
+{: .warning }
 
 ## Description
 Essential data is defined and collected in a standardized way, applying quality, traceability, FAIR principles, and clear roles to guarantee its subsequent correct and consistent use. Data collection can be manual or automated (with quality and standardization mechanisms adapted to each case). It is important to assess whether data is structured or not, due to its impact on quality, as well as to establish responsibilities for its maintenance and improvement if necessary.

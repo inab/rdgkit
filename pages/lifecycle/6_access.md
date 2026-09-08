@@ -1,10 +1,10 @@
 ---
-title: "Phase 6. Access"
+title: "6. Access"
 description: "Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules."
 ---
 
-{: .warning }
 > This version is the initial version under construction.
+{: .warning }
 
 ## Description:
 Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules.

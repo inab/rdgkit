@@ -1,10 +1,10 @@
 ---
-title: "Phase 7. Processing and Analysis"
+title: "7. Processing and Analysis"
 description: "Ensures processing and analysis are secure, traceable, reproducible, and of high quality, with defined roles, policies, controls, and audits."
 ---
 
-{: .warning }
 > This version is the initial version under construction.
+{: .warning }
 
 ## Description:
 Ensures processing and analysis are secure, traceable, reproducible, and of high quality, with defined roles, policies, controls, and audits.

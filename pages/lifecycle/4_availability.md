@@ -1,11 +1,11 @@
 ---
-title: "Phase 4. Availability"
+title: "4. Availability"
 description: "Availability, storage, back-up, traceability, and clear associated roles and permissions criteria are defined for each data type in the project."
 type: lifecycle
 ---
 
-{: .warning }
 > This version is the initial version under construction.
+{: .warning }
 
 
 ## Description:

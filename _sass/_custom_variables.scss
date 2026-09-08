@@ -4,27 +4,29 @@ $font-family-theme: "Exo 2", sans-serif;
 /*-----Top navigation-----*/
 $topnav-bg: $blue-impact;
 $topnav-title-color: $white;
-$topnav-brand-height: 40px;
+$topnav-brand-height: 45px;
 $topnav-link-color: $white;
 $topnav-link-color-active: $white;
 $topnav-link-bg-active: $primary;
-$topnav-break-color: rgba($white, 0.50);
+$topnav-break-color: rgba($white, 0.30);
 
 /*-----Sidebar-----*/
 $sidebar-title-bg: $light;
-$sidebar-link-bg-active: rgba($primary, 0.1);
+$sidebar-link-color: $dark;
+$sidebar-link-color-active: $primary;
+$sidebar-link-bg-active: rgba($primary, 0.08);
 
 /*-----Page metadata-----*/
-$page-metadata-bg: rgba($blue, 0.1);
+$page-metadata-bg: rgba($blue-impact, 0.05);
 
 /*-----Section navigation tiles-----*/
-$nav-card-bg-hover: $light;
-$nav-card-arrow-bg: rgba($primary, 0.1);
+$nav-card-bg-hover: $light-x;
+$nav-card-arrow-bg: rgba($primary, 0.15);
 
 /*-----Footer-----*/
-$footer-bg: $blue-impact;
-$footer-color: $white;
+$footer-bg: $dark; /* Cambio a oscuro para contrastar con el nav */
+$footer-color: $light;
 $footer-link-color: $white;
 $footer-link-color-hover: $primary;
-$footer-copyright-bg: #00000033;
-$footer-ett: $white;
+$footer-copyright-bg: rgba(0, 0, 0, 0.5);
+$footer-ett: $light;

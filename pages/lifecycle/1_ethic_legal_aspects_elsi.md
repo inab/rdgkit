@@ -1,10 +1,10 @@
 ---
-title: "Phase 1. Legal and ethical aspects (ELSI)"
+title: "1. Legal and ethical aspects (ELSI)"
 description: "Data is obtained considering aspects such as ethical approval, consent and representativeness in the data, regulatory compliance, secure processing of sensitive data, and defined legal roles."
 ---
 
-{: .warning }
 > This version is the initial version under construction.
+{: .warning }
 
 ## Description
 Data is obtained considering aspects such as ethical approval, consent and representativeness in the data, regulatory compliance, secure processing of sensitive data, and defined legal roles.

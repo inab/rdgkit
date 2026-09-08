@@ -11,12 +11,13 @@
     background-color: $light-x;
 }
 
-// Light gray background on the left
+// Fondo gris a la izquierda para el sidebar
 @include media-breakpoint-up(lg) {
     body:not(:has(.landingpage)) {
         .anchorjs-link {
             font-size: 0.7em !important;
             padding-top: 0.3em;
+            color: $primary !important;
         }
 
         #layout {
@@ -24,6 +25,7 @@
         }
         header nav.navbar {
             margin-bottom: 0 !important;
+            border-bottom: 4px solid $primary; /* Detalle corporativo de IMPaCT */
         }
         aside#sidebar {
             padding-top: $spacer * 3;
@@ -50,14 +52,24 @@
 #main {
     min-height: 100vh;
 
+    h1 {
+        color: $primary; /* Título principal en Magenta */
+        font-family: $font-family-theme;
+        font-weight: 700;
+    }
+
     h2,
     .h2-like {
+        color: $blue-impact;
         font-weight: 600;
         margin-top: $spacer * 2.5;
-        margin-bottom: $spacer * 0.5;
+        margin-bottom: $spacer * 1.0;
+        border-bottom: 2px solid $light-x;
+        padding-bottom: 0.5rem;
     }
 
     h3 {
+        color: $blue-impact;
         font-weight: 600;
     }
 }
@@ -91,10 +103,15 @@
     .card,
     .landing-tile {
         transition: $transition-base;
+        border: none;
+        border-radius: $border-radius;
+        background-color: $white;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 
         &:hover,
         &:focus-within {
-            box-shadow: $box-shadow;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+            transform: translateY(-3px); /* Efecto elevación suave */
         }
     }
 
@@ -103,17 +120,26 @@
             width: unset;
             padding: $card-spacer-x $card-spacer-x 0 $card-spacer-x;
         }
+        .card-title {
+            color: $blue-impact;
+            border-bottom: 2px solid $primary;
+            display: inline-block;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+        }
     }
 
     h1 {
-        font-size: 2.2rem;
-        font-weight: 200;
+        font-size: 2.5rem;
+        font-weight: 700;
         text-align: center;
+        color: $blue-impact;
     }
 
     h2 {
         font-weight: 700;
         font-family: $font-family-theme;
+        color: $primary;
     }
 
     h3 {
@@ -123,69 +149,65 @@
 }
 
 // Icon sizing
-
-.h-icon-8 {
-    height: 8em;
-}
-.h-icon-6 {
-    height: 6em;
-}
-.h-icon-5 {
-    height: 5em;
-}
-.h-icon-4 {
-    height: 4em;
-}
+.h-icon-8 { height: 8em; }
+.h-icon-6 { height: 6em; }
+.h-icon-5 { height: 5em; }
+.h-icon-4 { height: 4em; }
 
 // Search box
-
 section#search-section {
-    form {
-        max-width: 600px;
-    }
-
-    #search-results {
-        right: unset;
-    }
-    .input-group-text {
-        font-size: 1.5rem;
+    form { max-width: 600px; }
+    #search-results { right: unset; }
+    .input-group-text { font-size: 1.5rem; }
+    .form-control:focus {
+        border-color: $primary;
+        box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
     }
 }
 
 // Counters on landing page
-
 .count-number {
     font-size: 4em;
     font-weight: 700;
 }
 
 /*-----Section navigation tiles-----*/
-
 .navigation-tiles {
     .card,
     .btn {
+        border-color: $light-x;
         &:hover {
-            box-shadow: $box-shadow;
+            box-shadow: 0 5px 15px rgba($blue-impact, 0.1);
+            border-color: $primary;
         }
     }
 }
 
-
-
 /*-----Top navigation-----*/
-
 .navbar-nav .nav-item > a {
     white-space: nowrap;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    color: $light !important; /* Blanco roto para legibilidad sobre fondo oscuro */
+    transition: color 0.2s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &.active {
+        color: $primary !important; /* Cambia a tu verde esmeralda al interactuar */
+    }
 }
 
 /*-----Better tools-----*/
 .tool {
     border-radius: 1rem;
     padding-right: 0.5rem;
+    border-left: 4px solid $primary;
 }
 
 /*-----New Icons-----*/
-
 .landingpage #search-label {
     background-color: $white;
 }
@@ -242,7 +264,6 @@ i.icon-search {
 }
 
 /*-----News and events-----*/
-
 .news-timeline-date {
     .news-metadata-item {
         flex: 0 0 auto;
@@ -257,7 +278,6 @@ i.icon-search {
 }
 
 // Tool snippet
-
 i.fa-solid.fa-wrench {
     background: url("../img/section-icons/info2.svg") center no-repeat;
     &:before {
@@ -269,11 +289,82 @@ i.fa-solid.fa-wrench {
 }
 
 // Citation/Bibiography styling
-
 a.citation span {
     font-size: small;
 }
 
 .bibliography { 
     margin-top: 2rem; 
-} 
+}
+
+/*----- Callouts / Admonitions (ETT Style) -----*/
+blockquote {
+    padding: 1rem 1.5rem 1rem 3.5rem;
+    margin: 1.5rem 0;
+    border-left: 4px solid $light-x;
+    background-color: rgba($light-x, 0.4);
+    border-radius: 0 $border-radius $border-radius 0;
+    position: relative;
+    font-size: 0.95rem;
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Icono por defecto */
+    &::before {
+        font-family: "Font Awesome 6 Free", "FontAwesome";
+        font-weight: 900;
+        position: absolute;
+        left: 1.2rem;
+        top: 1.1rem;
+        font-size: 1.2rem;
+        color: $gray-600;
+    }
+
+    &.warning {
+        border-left-color: #f39c12;
+        background-color: rgba(#f39c12, 0.08);
+        &::before {
+            content: "\f071"; /* fa-exclamation-triangle */
+            color: #f39c12;
+        }
+    }
+
+    &.info, &.note {
+        border-left-color: $blue;
+        background-color: rgba($blue, 0.05);
+        &::before {
+            content: "\f05a"; /* fa-info-circle */
+            color: $blue;
+        }
+    }
+
+    &.important, &.danger {
+        border-left-color: #e74c3c;
+        background-color: rgba(#e74c3c, 0.05);
+        &::before {
+            content: "\f06a"; /* fa-exclamation-circle */
+            color: #e74c3c;
+        }
+    }
+
+    &.success {
+        border-left-color: #27ae60;
+        background-color: rgba(#27ae60, 0.08);
+        &::before {
+            content: "\f058"; /* fa-check-circle */
+            color: #27ae60;
+        }
+    }
+    
+    /* Callout personalizado con tu color esmeralda */
+    &.primary, &.tip {
+        border-left-color: $primary;
+        background-color: rgba($primary, 0.08);
+        &::before {
+            content: "\f0eb"; /* fa-lightbulb */
+            color: $primary;
+        }
+    }
+}

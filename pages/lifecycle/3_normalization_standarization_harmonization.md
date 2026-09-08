@@ -1,12 +1,10 @@
 ---
-title: "Phase 3. Normalization, Standardization, Harmonization"
+title: "3. Normalization, Standardization, Harmonization"
 description: "Ensures that data is transformed, standardized, and versioned in a traceable and consistent manner by applying uniform rules, conflict resolution, and practices that guarantee reproducibility and replicability."
 ---
 
-{: .warning }
 > This version is the initial version under construction.
-
-# Fase 3 - Normalization, Standardization, Harmonization
+{: .warning }
 
 ## Description:
 Ensures that data is transformed, standardized, and versioned in a traceable and consistent manner by applying uniform rules, conflict resolution, and practices that guarantee reproducibility and replicability.

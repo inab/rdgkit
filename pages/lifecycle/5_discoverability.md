@@ -1,10 +1,10 @@
 ---
-title: "Phase 5. Discoverability"
+title: "5. Discoverability"
 description: "Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users for each data type in the project."
 ---
 
-{: .warning }
 > This version is the initial version under construction.
+{: .warning }
 
 
 ## Description:
