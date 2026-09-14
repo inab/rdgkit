@@ -1,6 +1,8 @@
 ---
-title: "5. Discoverability"
-description: "Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users for each data type in the project."
+title: "3. Data availability"
+page_id: dataAvailability
+description: "Availability, storage, back-up, traceability, and clear associated roles and permissions criteria are defined for each data type in the project."
+type: lifecycle
 ---
 
 > This version is the initial version under construction.
@@ -8,26 +10,20 @@ description: "Seeks to ensure data assets are easily locatable, understandable, 
 
 
 ## Description:
-Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users. This exercise must be done for each data type in the project.
+Availability, storage, back-up, traceability, and clear associated roles and permissions criteria are defined. This exercise must be done for each data type in the project. It is important to emphasize that data availability may vary over time (e.g. embargo periods for data before opening or publishing them).
 
 ## Requirements:
-* [ ] We have classified available data types and defined mandatory metadata for each type.
-* [ ] We have classified datasets according to their sensitivity level and conditions of use.
-* [ ] If different data types are discoverable through catalogues, these are standardized (e.g. DCAT-AP).
-* [ ] If authorized users locate and access data at its original source, data architecture is taken into account (centralized, hybrid, or federated data).
-* [ ] We have defined access, use, and visibility policies according to data types and permissions/licenses.
-* [ ] We have enabled tools that facilitate discoverability programmatically and efficiently (e.g. APIs).
-* [ ] We have defined discoverability KPIs and periodic compliance audits.
+* [ ] We have established clear availability criteria considering whether data is centralized, hybrid, or federated (e.g. interoperability, access control, etc.).
+* [ ] We have used standardized solutions versus ad-hoc repositories, ensuring data types are stored consistently, reusable, and sustainably.
+* [ ] In case of using ad-hoc repositories, we have documented them properly (purpose, data type, etc.).
+* [ ] We have implemented back-up plans and incident monitoring.
+* [ ] We have documented availability and traceability metrics so that data is auditable and reproducible regardless of where it is stored.
 
 ## Questions like ...
-* Have I analyzed and classified all available data types in the project? Have I defined the minimum metadata needed for each type?
-* Have I applied recognized standards (e.g. DCAT-AP) to ensure data is discoverable and reusable from catalogues?
-* Have I considered architecture (centralized, hybrid, or federated) for "at source" discoverable data?
-* Have I defined clear access and visibility policies according to data types and corresponding permissions?
-* Are datasets classified according to sensitivity level and protected via appropriate access controls?
-* Have I enabled tools helping programmatic discoverability? Which ones and how do they integrate into the data flow?
-* Have I defined metrics to evaluate and measure data discoverability sustainably?
-* Have I defined and disseminated procedures for periodic audits ensuring compliance with regulations and standards?
+* Is data managed centrally, hybrid, or federated? Based on that, have I established clear data availability criteria (e.g. interoperability)?
+* What storage solutions have been implemented so data is robust and reusable sustainably? Is the use of standardized solutions prioritized over ad-hoc solutions?
+* Have I implemented back-up, recovery, and incident monitoring plans? Do they help make data available sustainably?
+* Have I documented metrics to ensure data is auditable and reproducible regardless of where it is stored?
 
 ## Roles
 * Lorem Ipsum

@@ -1,29 +1,34 @@
 ---
-title: "6. Access"
-description: "Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules."
+title: "4. Data discoverability"
+page_id: dataDiscoverability
+description: "Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users for each data type in the project."
 ---
 
 > This version is the initial version under construction.
 {: .warning }
 
+
 ## Description:
-Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules.
+Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users. This exercise must be done for each data type in the project.
 
 ## Requirements:
-* [ ] We have established a Data Access Committee (DAC) to evaluate access requests according to ethical, legal, and technical criteria, keeping the "data minimisation" principle in mind.
-* [ ] At a technical level, we have defined access/revocation policies per data type, including conditions for cloud analysis (recommended) or download.
-* [ ] In case of cloud-based access, we have defined who can use the data and how, and the duration/renewal of access.
-* [ ] We have implemented robust authentication and access logging.
-* [ ] We have established audits, risk management, and process traceability to monitor compliance and security.
-* [ ] We have defined which of the mentioned points must be considered at a general level (policy-level) or per request.
+* [ ] We have classified available data types and defined mandatory metadata for each type.
+* [ ] We have classified datasets according to their sensitivity level and conditions of use.
+* [ ] If different data types are discoverable through catalogues, these are standardized (e.g. DCAT-AP).
+* [ ] If authorized users locate and access data at its original source, data architecture is taken into account (centralized, hybrid, or federated data).
+* [ ] We have defined access, use, and visibility policies according to data types and permissions/licenses.
+* [ ] We have enabled tools that facilitate discoverability programmatically and efficiently (e.g. APIs).
+* [ ] We have defined discoverability KPIs and periodic compliance audits.
 
 ## Questions like ...
-* Is there a Data Access Committee (DAC) to evaluate all access requests?
-* Have I clearly defined who can access and use data and the duration/renewal of access in cloud environments?
-* Are there specific access requirements for cloud analysis (SPE) versus local data download?
-* Are all data accesses logged?
-* Are there risk management policies, process traceability, and periodic audits to ensure compliance and security of data access?
-* Which of these measures apply generally versus specifically? Have I documented this clearly?
+* Have I analyzed and classified all available data types in the project? Have I defined the minimum metadata needed for each type?
+* Have I applied recognized standards (e.g. DCAT-AP) to ensure data is discoverable and reusable from catalogues?
+* Have I considered architecture (centralized, hybrid, or federated) for "at source" discoverable data?
+* Have I defined clear access and visibility policies according to data types and corresponding permissions?
+* Are datasets classified according to sensitivity level and protected via appropriate access controls?
+* Have I enabled tools helping programmatic discoverability? Which ones and how do they integrate into the data flow?
+* Have I defined metrics to evaluate and measure data discoverability sustainably?
+* Have I defined and disseminated procedures for periodic audits ensuring compliance with regulations and standards?
 
 ## Roles
 * Lorem Ipsum

@@ -1,28 +1,29 @@
 ---
-title: "4. Availability"
-description: "Availability, storage, back-up, traceability, and clear associated roles and permissions criteria are defined for each data type in the project."
-type: lifecycle
+title: "5. Data access"
+description: "Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules."
 ---
 
 > This version is the initial version under construction.
 {: .warning }
 
-
 ## Description:
-Availability, storage, back-up, traceability, and clear associated roles and permissions criteria are defined. This exercise must be done for each data type in the project. It is important to emphasize that data availability may vary over time (e.g. embargo periods for data before opening or publishing them).
+Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules.
 
 ## Requirements:
-* [ ] We have established clear availability criteria considering whether data is centralized, hybrid, or federated (e.g. interoperability, access control, etc.).
-* [ ] We have used standardized solutions versus ad-hoc repositories, ensuring data types are stored consistently, reusable, and sustainably.
-* [ ] In case of using ad-hoc repositories, we have documented them properly (purpose, data type, etc.).
-* [ ] We have implemented back-up plans and incident monitoring.
-* [ ] We have documented availability and traceability metrics so that data is auditable and reproducible regardless of where it is stored.
+* [ ] We have established a Data Access Committee (DAC) to evaluate access requests according to ethical, legal, and technical criteria, keeping the "data minimisation" principle in mind.
+* [ ] At a technical level, we have defined access/revocation policies per data type, including conditions for cloud analysis (recommended) or download.
+* [ ] In case of cloud-based access, we have defined who can use the data and how, and the duration/renewal of access.
+* [ ] We have implemented robust authentication and access logging.
+* [ ] We have established audits, risk management, and process traceability to monitor compliance and security.
+* [ ] We have defined which of the mentioned points must be considered at a general level (policy-level) or per request.
 
 ## Questions like ...
-* Is data managed centrally, hybrid, or federated? Based on that, have I established clear data availability criteria (e.g. interoperability)?
-* What storage solutions have been implemented so data is robust and reusable sustainably? Is the use of standardized solutions prioritized over ad-hoc solutions?
-* Have I implemented back-up, recovery, and incident monitoring plans? Do they help make data available sustainably?
-* Have I documented metrics to ensure data is auditable and reproducible regardless of where it is stored?
+* Is there a Data Access Committee (DAC) to evaluate all access requests?
+* Have I clearly defined who can access and use data and the duration/renewal of access in cloud environments?
+* Are there specific access requirements for cloud analysis (SPE) versus local data download?
+* Are all data accesses logged?
+* Are there risk management policies, process traceability, and periodic audits to ensure compliance and security of data access?
+* Which of these measures apply generally versus specifically? Have I documented this clearly?
 
 ## Roles
 * Lorem Ipsum

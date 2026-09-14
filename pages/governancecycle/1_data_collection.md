@@ -1,30 +1,28 @@
 ---
-title: "1. Legal and ethical aspects (ELSI)"
-description: "Data is obtained considering aspects such as ethical approval, consent and representativeness in the data, regulatory compliance, secure processing of sensitive data, and defined legal roles."
+title: "1. Data collection"
+description: "Essential data is defined and collected in a standardized way, applying quality, traceability, FAIR principles, and clear roles to guarantee its subsequent correct and consistent use."
+
 ---
 
 > This version is the initial version under construction.
 {: .warning }
 
 ## Description
-Data is obtained considering aspects such as ethical approval, consent and representativeness in the data, regulatory compliance, secure processing of sensitive data, and defined legal roles.
+Essential data is defined and collected in a standardized way, applying quality, traceability, FAIR principles, and clear roles to guarantee its subsequent correct and consistent use. Data collection can be manual or automated (with quality and standardization mechanisms adapted to each case). It is important to assess whether data is structured or not, due to its impact on quality, as well as to establish responsibilities for its maintenance and improvement if necessary.
 
 ## Requirements
-* [ ] We have obtained ethical committee approval for data collection.
-* [ ] We have prepared and collected informed consent from all participants.
-* [ ] We comply with necessary data protection regulations (e.g. GDPR, EHDS, DGA, etc.).
-* [ ] We have defined policies for the use and processing of sensitive data, including timelines and procedures for retention and destruction based on regulations.
-* [ ] We have considered representativeness in our data (data properly reflects the needs of the study at a population, temporal, etc. level).
-* [ ] We have considered AI-related governance aspects - if applicable (bias, anonymization, risks in line with the AI Act...).
+* [ ] We have defined what data and metadata are essential for the project and how to record them in a standardized way.
+* [ ] We have established criteria to select appropriate collection tools (e.g. RedCap).
+* [ ] We have defined data quality standards (e.g. precision, completeness, consistency, and reliability).
+* [ ] We have implemented initial validation processes to detect errors and/or inconsistencies.
+* [ ] We have applied FAIR principles from data collection.
 
 ## Questions like ...
-* Does the ethical committee approval cover all intended uses of the data?
-* Have I obtained explicit informed consent from all patients?
-* Do we guarantee that they can revoke that right according to legislation?
-* Have I applied all necessary security, protection, and data minimization measures according to the corresponding regulations?
-* Have I defined deadlines and procedures for the secure retention and destruction of sensitive data?
-* What security, quality control, and audit mechanisms will I consider?
-* Have I clearly defined all measures and rules to guarantee ethical and legal compliance (ELSI) throughout the project?
+* Have I identified what data and metadata are critical for the project and defined how they should be recorded in a standardized way?
+* What tools will I use to collect the data? Why? Are they standard and validated?
+* Have I established clear data quality criteria that must be met during collection?
+* Have I implemented controls and validations that help me detect errors or inconsistencies when collecting data?
+* Have I ensured that data follows FAIR principles from its collection?
 
 ## Roles
 * Lorem Ipsum
