@@ -2,7 +2,7 @@ copyright: '[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/
 columns:
   - type: links
     title: Project
-    width: 4
+    width: 3
     children:
       - url_text: About
         url: /about
@@ -10,7 +10,7 @@ columns:
         url: /how_to_contribute
   - type: links
     title: Resources
-    width: 4
+    width: 3
     children:
       - url_text: Roles
         url: /roles
@@ -18,9 +18,14 @@ columns:
         url: /lifecycle
   - type: links
     title: Legal
-    width: 4
+    width: 3
     children:
       - url_text: License
         url: /LICENSE
       - url_text: Privacy
         url: /privacy
+  - type: image
+    image_width: 120px
+    width: 3
+    src: 'assets/img/06_Powered_by_IMPaCT_Data_compact_negative.png'
+    alt: Powered by IMPaCT Data logo
