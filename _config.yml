@@ -22,8 +22,8 @@ theme_variables:
   headings:
     resource-table-all-collapse: true
   topnav:
-   brand_logo: assets/img/rdgkit_prev_logo.png
-
+   brand_logo: assets/img/RDGkit_Logo_Colour.svg
+   
 exclude:
   - README.md
   - .gitignore
