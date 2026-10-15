@@ -184,6 +184,18 @@ section#search-section {
 }
 
 /*-----Top navigation-----*/
+.navbar {
+    background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #d9e2ec 15%,
+    #93a5c2 35%,
+    #41658a 55%,
+    #1d3b6a 70%,
+    #1b234b 85%,
+    #191e42 100%
+  );
+}
 .navbar-nav .nav-item > a {
     white-space: nowrap;
     font-weight: 600;
