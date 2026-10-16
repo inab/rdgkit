@@ -1,5 +1,5 @@
 ---
-title: "6. Data processing and analysis"
+title: "6. Procesamiento y análisis de los datos"
 page_id: dataProcessing
 description: "Ensures processing and analysis are secure, traceable, reproducible, and of high quality, with defined roles, policies, controls, and audits."
 ---
