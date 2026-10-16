@@ -1,5 +1,5 @@
 ---
-title: "3. Normalization, Standardization, Harmonization"
+title: "3. Normalización, estandarización y harmonización de los datos"
 description: "Ensures that data is transformed, standardized, and versioned in a traceable and consistent manner by applying uniform rules, conflict resolution, and practices that guarantee reproducibility and replicability."
 ---
 

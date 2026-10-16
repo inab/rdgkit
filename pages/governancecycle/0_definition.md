@@ -1,5 +1,5 @@
 ---
-title: "0. Global project definition"
+title: "0. Definición global del proyecto"
 page_id: definition
 description: "Initial stage where project objectives, roles and responsibilities, quality and supervision mechanisms, and the scope of the data involved are established, as well as the basic rules for their secure, ethical, and compliant access and use."
 ---

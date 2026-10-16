@@ -1,11 +1,11 @@
 subitems:
   - title: Home
     url: /
-  - title: Data Governance Cycle
+  - title: Ciclo de gobernanza de datos
     url: /pages/governancecycle/
-  - title: Governance Levels
+  - title: Niveles de gobernanza
     url: /pages/levels/
-  - title: Your Role
+  - title: Roles
     url: /pages/roles/
-  - title: Tools & Resources
+  - title: Herramientas y recursos
     url: /pages/resources/
