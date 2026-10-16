@@ -1,5 +1,5 @@
 ---
-title: "5. Data access"
+title: "5. Acceso a los datos"
 description: "Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules."
 ---
 
