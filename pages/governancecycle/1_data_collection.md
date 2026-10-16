@@ -1,5 +1,5 @@
 ---
-title: "1. Data collection"
+title: "1. Colección de los datos"
 description: "Essential data is defined and collected in a standardized way, applying quality, traceability, FAIR principles, and clear roles to guarantee its subsequent correct and consistent use."
 
 ---
