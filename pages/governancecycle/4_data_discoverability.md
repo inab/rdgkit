@@ -1,5 +1,5 @@
 ---
-title: "4. Data discoverability"
+title: "4. Capacidad de descubrimiento de los datos"
 page_id: dataDiscoverability
 description: "Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users for each data type in the project."
 ---
