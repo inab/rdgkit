@@ -1,0 +1,79 @@
+{% comment %}
+Adapted from ELIXIR-Belgium/elixir-toolkit-theme 6.1.0, _includes/toc.html.
+
+MIT License
+
+Copyright (c) 2021 ELIXIR Belgium
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+{% endcomment %}
+{%- assign toc_lang = site.active_lang | default: page.lang | default: site.default_lang %}
+{%- assign toc_title = site.data.translations[toc_lang].on_this_page | default: "On this page" %}
+{%- capture toc_heading %}<strong class="my-0 my-xl-2 pt-2 d-block text-dark">{{ toc_title | escape }}</strong><hr class="mt-2">{% endcapture %}
+{%- if page.page_img %}
+<div id="page-img" class="d-flex flex-column">
+{%- capture file_url -%}
+{{ "/images/" | append: page.page_img | relative_url }}
+{%- endcapture -%}
+<div class="mb-4"><img src="{{ file_url }}" alt="Page image" class="page-img-lg"/></div>
+{% endif %}
+{%- if page.page_img %}
+</div>
+{% endif %}
+{%- if page.toc or page.toc == nil %}
+<script>
+  $(document).ready(function () {
+    // Ensure that the TOC is generated after the document is fully loaded
+    $('#toc-contents').toc({
+      minimumHeaders: {{ site.theme_variables.toc.min_headings | default: 1 }},
+      listType: 'ul',
+      classes: { list: 'list-unstyled mb-4' },
+      showSpeed: 0,
+      headers: '{{site.theme_variables.toc.headings | default: "main h2" }}',
+      title: {{ toc_heading | jsonify }}
+    });
+    // After generating the TOC, check the hash in the URL and scroll to the anchor if present
+    if (window.location.hash) {
+      var target = $(window.location.hash);
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 0);
+      }
+    }
+    // Allow the browser to handle the scrolling to the anchor
+    $('#toc-contents a').on('click', function (e) {
+      e.preventDefault(); // Prevent the default link click behavior
+
+      var target = this.hash; // Get the hash (e.g., #heading-id)
+      var $target = $(target); // Find the element with the corresponding ID
+
+      if ($target.length) {
+        // Change the URL hash
+        window.location.hash = target;
+      }
+    });
+
+  });
+</script>
+<button id="btn-toc-hide" class="btn bg-light me-auto d-xl-none hover-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#toc-contents" aria-expanded="true" aria-controls="toc-contents">
+  <i class="fa-solid fa-up-right-and-down-left-from-center me-2"></i>{{ toc_title | escape }}
+</button>
+<nav id="toc-contents" class="collapse" aria-label="Table of contents"></nav>
+{% endif %}

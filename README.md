@@ -148,6 +148,22 @@ Interior content H1s are scoped to `.rdg-interior #main`, sized at `2rem`,
 and have no negative top margin. A `1.5rem` margin below the hero separates
 both sidebar and content from the banner without changing the theme grid.
 
+The body uses a flex-column sticky-footer layout, with the outer content
+container filling unused viewport space. Interior backgrounds remain white;
+only the actual desktop sidebar grid column is grey, so it follows the theme's
+responsive column widths rather than a fixed or percentage-based body gradient.
+Its desktop pseudo-element extends that background through the left outer
+gutter and up to the hero, stopping at the sidebar's actual right edge.
+Desktop sidebar navigation has natural height and scrolls with the document.
+These overrides leave Bootstrap's mobile sidebar collapse behavior intact.
+
+`_includes/toc.html` overrides the theme 6.1.0 TOC include to translate both
+the desktop heading and mobile toggle using `on_this_page` in
+`_data/translations.yml`. It uses `site.active_lang` before `page.lang` so
+English fallback routes display English UI even when their content is Spanish.
+The generated JavaScript heading is serialized with `jsonify`. Keep this
+override synchronized with the theme when upgrading.
+
 Restart `docker compose` after changing `_config.yml`; Jekyll does not reload
 configuration changes during watch mode.
 

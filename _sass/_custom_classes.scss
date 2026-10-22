@@ -1,6 +1,35 @@
 /*-----General styling-----*/
 
+html {
+    background: $color-primary-dark;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: $white;
+
+    > .container {
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    > header,
+    > .rdg-hero-banner,
+    > #footer {
+        flex-shrink: 0;
+    }
+}
+
+body > .container > #layout {
+    flex: 1 0 auto;
+}
+
 .rdg-interior {
+    background: $white;
+
     .rdg-hero-banner {
         margin-bottom: 1.5rem;
     }
@@ -17,7 +46,6 @@
     background-color: $light-x;
 }
 
-// Fondo gris a la izquierda para el sidebar
 @include media-breakpoint-up(lg) {
     body:not(:has(.landingpage)) {
         .anchorjs-link {
@@ -25,8 +53,42 @@
             padding-top: 0.3em;
             color: $primary !important;
         }
+    }
 
-        background: linear-gradient(to right, $light 0 50%, $body-bg 50% 100%);    
+    .rdg-interior #sidebar {
+        position: relative;
+        isolation: isolate;
+        align-self: stretch;
+        background: #f5f6fa;
+
+        // Follow the responsive sidebar edge, including the outer left gutter.
+        &::before {
+            content: "";
+            position: absolute;
+            top: -1.5rem;
+            right: 0;
+            bottom: 0;
+            width: 100vw;
+            background: #f5f6fa;
+            z-index: -1;
+            pointer-events: none;
+        }
+    }
+
+    .rdg-interior #main {
+        background: $white;
+    }
+
+    #sidebar > nav {
+        position: static;
+        height: auto;
+        max-height: none;
+        overflow: visible;
+
+        .sidebar-title-wrapper {
+            position: static;
+            background: transparent;
+        }
     }
 }
 
@@ -40,7 +102,7 @@
 }
 
 #main {
-    min-height: 100vh;
+    min-height: 0;
 
     h1 {
         color: $primary; /* Título principal en Magenta */
