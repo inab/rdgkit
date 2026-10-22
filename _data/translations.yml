@@ -1,0 +1,18 @@
+es:
+  nav_home: "Inicio"
+  nav_governance_cycle: "Ciclo de gobernanza de datos"
+  nav_governance_levels: "Niveles de gobernanza"
+  nav_roles: "Roles"
+  nav_resources: "Herramientas y recursos"
+  search_label: "Buscar"
+  search_placeholder: "Buscar..."
+  read_more: "Leer más"
+en:
+  nav_home: "Home"
+  nav_governance_cycle: "Data governance cycle"
+  nav_governance_levels: "Governance levels"
+  nav_roles: "Roles"
+  nav_resources: "Tools and resources"
+  search_label: "Search"
+  search_placeholder: "Search..."
+  read_more: "Read more"

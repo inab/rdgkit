@@ -1,34 +1,29 @@
 ---
-title: "4. Capacidad de descubrimiento de los datos"
-page_id: dataDiscoverability
-description: "Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users for each data type in the project."
+lang: es
+permalink: /pages/governancecycle/2_data_normalization_standarization_harmonization.html
+title: "3. Normalización, estandarización y harmonización de los datos"
+description: "Ensures that data is transformed, standardized, and versioned in a traceable and consistent manner by applying uniform rules, conflict resolution, and practices that guarantee reproducibility and replicability."
 ---
 
 > This version is the initial version under construction.
 {: .warning }
 
-
 ## Description:
-Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users. This exercise must be done for each data type in the project.
+Ensures that data is transformed, standardized, and versioned in a traceable and consistent manner by applying uniform rules, conflict resolution, and practices that guarantee reproducibility and replicability.
 
 ## Requirements:
-* [ ] We have classified available data types and defined mandatory metadata for each type.
-* [ ] We have classified datasets according to their sensitivity level and conditions of use.
-* [ ] If different data types are discoverable through catalogues, these are standardized (e.g. DCAT-AP).
-* [ ] If authorized users locate and access data at its original source, data architecture is taken into account (centralized, hybrid, or federated data).
-* [ ] We have defined access, use, and visibility policies according to data types and permissions/licenses.
-* [ ] We have enabled tools that facilitate discoverability programmatically and efficiently (e.g. APIs).
-* [ ] We have defined discoverability KPIs and periodic compliance audits.
+* [ ] We have applied uniform standards and naming conventions defined in point 0 in a consistent manner.
+* [ ] We have documented all data transformations, including normalization rules and mapping between sources (including logical, technical, and verification documentation).
+* [ ] We have established conflict resolution criteria and equivalences between such standards.
+* [ ] We have versioned and documented the extraction, transformation, and load processes (ETL pipeline) of the data as well as their quality, ensuring that each stage is traceable and auditable.
+* [ ] We have guaranteed data reproducibility and replicability (e.g. versioning of datasets/scripts, documentation of dependencies, etc.).
 
 ## Questions like ...
-* Have I analyzed and classified all available data types in the project? Have I defined the minimum metadata needed for each type?
-* Have I applied recognized standards (e.g. DCAT-AP) to ensure data is discoverable and reusable from catalogues?
-* Have I considered architecture (centralized, hybrid, or federated) for "at source" discoverable data?
-* Have I defined clear access and visibility policies according to data types and corresponding permissions?
-* Are datasets classified according to sensitivity level and protected via appropriate access controls?
-* Have I enabled tools helping programmatic discoverability? Which ones and how do they integrate into the data flow?
-* Have I defined metrics to evaluate and measure data discoverability sustainably?
-* Have I defined and disseminated procedures for periodic audits ensuring compliance with regulations and standards?
+* Have I documented all transformations applied to data (cleaning, normalization, etc.) at a logical, technical, and verification level?
+* Have I applied standards (e.g. SNOMED, ICD-10, OMOP...) and nomenclatures to each data type? Do they facilitate data interpretation and use? Are they consistent and uniform?
+* If my project has different data standards or formats, what criteria do I use to resolve conflicts or equivalences between them?
+* Have I versioned and documented the ETL pipeline of the data? How? Does this help make each stage traceable, auditable, and with defined quality and security controls?
+* How is data reproducibility and replicability ensured? (e.g. data provenance)
 
 ## Roles
 * Lorem Ipsum

@@ -14,7 +14,6 @@ Gemfile.lock
 .idea/
 .vscode/
 *.code-workspace
-.github/copilot-instructions.md
 
 # --- System Files ---
 .DS_Store

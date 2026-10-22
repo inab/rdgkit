@@ -7,6 +7,7 @@ gem "jemoji", "~> 0.13"
 gem "kramdown-parser-gfm", "~> 1.1"
 
 group :jekyll_plugins do
+  gem "jekyll-polyglot"
   gem "jekyll-remote-theme", "~> 0.4"
   gem "jekyll-redirect-from", "~> 0.16"
   gem "jekyll-sitemap", "~> 1.4"

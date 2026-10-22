@@ -9,6 +9,12 @@ url: "https://inab.github.io"
 
 repository: "inab/rdgkit"
 
+languages: ["es", "en"]
+default_lang: "es"
+exclude_from_localization: ["assets", "css", "js", "vendor"]
+# Remote theme temporary files must remain available for both language builds.
+parallel_localization: false
+
 sass:
   style: compressed
   sourcemap: never
@@ -62,6 +68,7 @@ defaults:
       sidebar: tools_resources
 
 plugins:
+  - jekyll-polyglot
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-seo-tag

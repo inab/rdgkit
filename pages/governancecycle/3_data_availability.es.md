@@ -1,4 +1,6 @@
 ---
+lang: es
+permalink: /pages/governancecycle/3_data_availability.html
 title: "3. Disponibilidad de los datos"
 page_id: dataAvailability
 description: "Availability, storage, back-up, traceability, and clear associated roles and permissions criteria are defined for each data type in the project."

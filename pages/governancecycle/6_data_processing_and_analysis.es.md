@@ -1,4 +1,6 @@
 ---
+lang: es
+permalink: /pages/governancecycle/6_data_processing_and_analysis.html
 title: "6. Procesamiento y análisis de los datos"
 page_id: dataProcessing
 description: "Ensures processing and analysis are secure, traceable, reproducible, and of high quality, with defined roles, policies, controls, and audits."

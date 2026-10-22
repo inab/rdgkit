@@ -1,4 +1,6 @@
 ---
+lang: es
+permalink: /pages/governancecycle/TEMPLATE_lifegovernance_phase.html
 title: "Título de la fase o sección"
 page_id: id_unico_de_fase
 description: "Breve resumen de los objetivos y alcance de esta sección."

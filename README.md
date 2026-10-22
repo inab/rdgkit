@@ -32,6 +32,43 @@ Compose overrides `baseurl` only for the local preview. Docker setup files are
 excluded from generated site output; the GitHub Pages deployment workflow is
 unchanged.
 
+## Internationalization
+
+The site uses `jekyll-polyglot`, with Spanish (`es`) as the default language
+and English (`en`) available under `/en/` (beneath the deployment base URL).
+Until English translations are added, English routes fall back to Spanish content.
+Language builds run serially to avoid remote-theme temporary-file cleanup races.
+
+Content currently lives in `pages/`. Name Markdown pages `page.es.md` or
+`page.en.md`, and include a language and an explicit permalink in front matter:
+
+```yaml
+---
+lang: es
+permalink: /pages/example.html
+---
+```
+
+An English counterpart must use `lang: en` and the **same permalink**. Preserve
+existing `page_id` values across translations when present. Link to the shared
+permalink using `relative_url`, not a language-specific source-file `link` tag:
+Polyglot removes the non-selected translation from the active page set.
+The HTML homepage also declares its
+language and permalink; README and CONTRIBUTING are repository documentation,
+not localized content pages.
+
+Keep UI labels in [`_data/translations.yml`](./_data/translations.yml) under
+matching `es` and `en` keys. In layouts and includes, use
+`{{ site.data.translations[site.active_lang].nav_home }}` rather than hardcoded
+labels. The existing GitHub Actions build runs Polyglot; no GitHub Pages
+safe-mode plugin support is required.
+
+[`_layouts/default.html`](./_layouts/default.html) preserves the theme's layout
+while setting the HTML language from Polyglot's active language. Keep this
+override in sync when upgrading the theme.
+
+After dependency changes, run `docker compose up --build` for a local preview.
+
 ## Image assets
 
 - `assets/img/favicons/`: browser icons, the web app manifest, and its icons.

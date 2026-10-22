@@ -1,27 +1,31 @@
 ---
-title: "3. Normalización, estandarización y harmonización de los datos"
-description: "Ensures that data is transformed, standardized, and versioned in a traceable and consistent manner by applying uniform rules, conflict resolution, and practices that guarantee reproducibility and replicability."
+lang: es
+permalink: /pages/governancecycle/5_data_access.html
+title: "5. Acceso a los datos"
+description: "Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules."
 ---
 
 > This version is the initial version under construction.
 {: .warning }
 
 ## Description:
-Ensures that data is transformed, standardized, and versioned in a traceable and consistent manner by applying uniform rules, conflict resolution, and practices that guarantee reproducibility and replicability.
+Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules.
 
 ## Requirements:
-* [ ] We have applied uniform standards and naming conventions defined in point 0 in a consistent manner.
-* [ ] We have documented all data transformations, including normalization rules and mapping between sources (including logical, technical, and verification documentation).
-* [ ] We have established conflict resolution criteria and equivalences between such standards.
-* [ ] We have versioned and documented the extraction, transformation, and load processes (ETL pipeline) of the data as well as their quality, ensuring that each stage is traceable and auditable.
-* [ ] We have guaranteed data reproducibility and replicability (e.g. versioning of datasets/scripts, documentation of dependencies, etc.).
+* [ ] We have established a Data Access Committee (DAC) to evaluate access requests according to ethical, legal, and technical criteria, keeping the "data minimisation" principle in mind.
+* [ ] At a technical level, we have defined access/revocation policies per data type, including conditions for cloud analysis (recommended) or download.
+* [ ] In case of cloud-based access, we have defined who can use the data and how, and the duration/renewal of access.
+* [ ] We have implemented robust authentication and access logging.
+* [ ] We have established audits, risk management, and process traceability to monitor compliance and security.
+* [ ] We have defined which of the mentioned points must be considered at a general level (policy-level) or per request.
 
 ## Questions like ...
-* Have I documented all transformations applied to data (cleaning, normalization, etc.) at a logical, technical, and verification level?
-* Have I applied standards (e.g. SNOMED, ICD-10, OMOP...) and nomenclatures to each data type? Do they facilitate data interpretation and use? Are they consistent and uniform?
-* If my project has different data standards or formats, what criteria do I use to resolve conflicts or equivalences between them?
-* Have I versioned and documented the ETL pipeline of the data? How? Does this help make each stage traceable, auditable, and with defined quality and security controls?
-* How is data reproducibility and replicability ensured? (e.g. data provenance)
+* Is there a Data Access Committee (DAC) to evaluate all access requests?
+* Have I clearly defined who can access and use data and the duration/renewal of access in cloud environments?
+* Are there specific access requirements for cloud analysis (SPE) versus local data download?
+* Are all data accesses logged?
+* Are there risk management policies, process traceability, and periodic audits to ensure compliance and security of data access?
+* Which of these measures apply generally versus specifically? Have I documented this clearly?
 
 ## Roles
 * Lorem Ipsum
