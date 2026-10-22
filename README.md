@@ -69,6 +69,88 @@ override in sync when upgrading the theme.
 
 After dependency changes, run `docker compose up --build` for a local preview.
 
+## Homepage styling
+
+The homepage uses `layout: home` in `index.html`. The full-width hero is
+rendered by `_layouts/default.html`; `_layouts/home.html` renders the card
+grid without the theme's page title, table of contents, or metadata panels.
+Each card expands with a click or Enter/Space to reveal the existing section
+links, preserving access without adding clutter to the initial grid.
+
+Brand colors are defined as `$color-primary-dark` (`#003B75`) and
+`$color-primary-light` (`#1993b5`) in `_sass/_bootstrap_variables.scss`.
+Theme component variables live in `_sass/_custom_variables.scss`, and the
+`.rdg-hero-banner`, `.rdg-card-grid`, and `.rdg-card` rules are in
+`_sass/_custom_classes.scss`. Navigation and footer styling reuse the theme's
+HTML and require no additional include overrides.
+
+## Interior page navigation and banner
+
+The theme's `page` layout inherits the local `_layouts/default.html`, which
+renders the full-width gradient banner before the content container. Interior
+banners display `page.parent`, falling back to `page.title` and then `site.title`.
+Section indexes use their own title; child pages declare the exact section
+title as `parent`. The theme retains
+the main content H1, table of contents, and page components unchanged.
+
+The theme reads `site.data.sidebars[page.sidebar]`. Directory defaults in
+`_config.yml` assign sidebars automatically for both `.es.md` and `.en.md`:
+
+| Source directory | Sidebar data file |
+| --- | --- |
+| `pages/governancecycle/` | `_data/sidebars/data_governance_cycle.yml` |
+| `pages/levels/` | `_data/sidebars/multilevel_data_governance_model.yml` |
+| `pages/roles/` | `_data/sidebars/your_role.yml` |
+| `pages/resources/` | `_data/sidebars/tools_resources.yml` |
+
+For pages outside these directories, specify the layout and sidebar explicitly:
+
+```yaml
+---
+layout: page
+lang: es
+title: "Definición global del proyecto"
+parent: "Ciclo de Gobernanza de Datos"
+nav_order: 1
+permalink: /pages/governancecycle/0_definition.html
+sidebar: data_governance_cycle
+---
+```
+
+English translations use `lang: en`, the same `permalink` and `sidebar`, and
+a `parent` matching the translated section title.
+Do not prefix sidebar URLs with `/en/` or the deployment base URL; Polyglot
+and the theme's `relative_url` handling apply those prefixes.
+
+Each section has an `index.es.md` with an explicit directory permalink
+(for example, `/pages/governancecycle/`), `has_children: true`, and a sidebar.
+The index lists the same links as the sidebar. An English index must keep
+the identical permalink and use `lang: en`.
+
+Sidebar data uses `subitems` (nested `subitems` create a hierarchy).
+This theme does **not** use Just-the-Docs navigation: `parent` is used by our
+hero, while `has_children` and `nav_order` are descriptive metadata, not sidebar
+generation or sorting controls. The order in the sidebar data is authoritative.
+Its current labels are Spanish and are also used on English fallback pages.
+No `_data/navigation.yml` is needed:
+
+```yaml
+subitems:
+  - title: "Definición"
+    url: /pages/governancecycle/0_definition.html
+  - title: "Más fases"
+    subitems:
+      - title: "Recopilación de datos"
+        url: /pages/governancecycle/1_data_collection.html
+```
+
+Interior content H1s are scoped to `.rdg-interior #main`, sized at `2rem`,
+and have no negative top margin. A `1.5rem` margin below the hero separates
+both sidebar and content from the banner without changing the theme grid.
+
+Restart `docker compose` after changing `_config.yml`; Jekyll does not reload
+configuration changes during watch mode.
+
 ## Image assets
 
 - `assets/img/favicons/`: browser icons, the web app manifest, and its icons.

@@ -1,5 +1,7 @@
 ---
 lang: es
+parent: "Ciclo de Gobernanza de Datos"
+nav_order: 2
 permalink: /pages/governancecycle/1_data_collection.html
 title: "1. Colección de los datos"
 description: "Se definen y recopilan los datos esenciales de forma estandarizada, aplicando criterios de calidad y trazabilidad, los Principios FAIR y una asignación clara de roles para garantizar su uso posterior correcto y coherente."

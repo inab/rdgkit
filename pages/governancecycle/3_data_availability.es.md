@@ -1,5 +1,7 @@
 ---
 lang: es
+parent: "Ciclo de Gobernanza de Datos"
+nav_order: 4
 permalink: /pages/governancecycle/3_data_availability.html
 title: "3. Disponibilidad de los datos"
 page_id: dataAvailability

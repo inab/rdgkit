@@ -1,5 +1,7 @@
 ---
 lang: es
+parent: "Ciclo de Gobernanza de Datos"
+nav_order: 7
 permalink: /pages/governancecycle/6_data_processing_and_analysis.html
 title: "6. Procesamiento y análisis de los datos"
 page_id: dataProcessing

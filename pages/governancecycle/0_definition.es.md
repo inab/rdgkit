@@ -1,5 +1,7 @@
 ---
 lang: es
+parent: "Ciclo de Gobernanza de Datos"
+nav_order: 1
 permalink: /pages/governancecycle/0_definition.html
 title: "0. Definición global del proyecto"
 page_id: definition

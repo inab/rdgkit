@@ -1,5 +1,7 @@
 ---
 lang: es
+parent: "Ciclo de Gobernanza de Datos"
+nav_order: 5
 permalink: /pages/governancecycle/4_data_discoverability.html
 title: "4. Capacidad de descubrimiento de los datos"
 page_id: dataDiscoverability

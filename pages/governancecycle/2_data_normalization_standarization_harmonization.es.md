@@ -1,5 +1,7 @@
 ---
 lang: es
+parent: "Ciclo de Gobernanza de Datos"
+nav_order: 3
 permalink: /pages/governancecycle/2_data_normalization_standarization_harmonization.html
 title: "3. Normalización, estandarización y harmonización de los datos"
 description: "Se garantiza que los datos se transformen, estandaricen y versionen de forma trazable y coherente mediante reglas uniformes, criterios de resolución de conflictos y prácticas que garanticen la reproducibilidad y la replicabilidad."

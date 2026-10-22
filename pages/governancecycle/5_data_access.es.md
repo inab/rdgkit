@@ -1,5 +1,7 @@
 ---
 lang: es
+parent: "Ciclo de Gobernanza de Datos"
+nav_order: 6
 permalink: /pages/governancecycle/5_data_access.html
 title: "5. Acceso a los datos"
 description: "Se busca garantizar un acceso a los datos seguro, ético, controlado y trazable, de acuerdo con las políticas, los roles y las normas aplicables."

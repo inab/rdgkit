@@ -1,5 +1,6 @@
 ---
 lang: es
+parent: "Ciclo de Gobernanza de Datos"
 permalink: /pages/governancecycle/TEMPLATE_lifegovernance_phase.html
 title: "Título de la fase o sección"
 page_id: id_unico_de_fase

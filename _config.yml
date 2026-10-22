@@ -40,9 +40,6 @@ exclude:
   - Gemfile*
   - LICENSE
 
-# Navigation and Structure
-#sidebar: main
-
 defaults:
   - scope:
       path: ""
@@ -51,13 +48,13 @@ defaults:
       layout: "page"
       sitemap: true
   - scope:
-      path: "pages/lifecycle"
+      path: "pages/governancecycle"
     values:
-      sidebar: data_life_cycle
+      sidebar: data_governance_cycle
   - scope:
       path: "pages/levels"
     values:
-      sidebar: governance_levels
+      sidebar: multilevel_data_governance_model
   - scope:
       path: "pages/roles"
     values:
