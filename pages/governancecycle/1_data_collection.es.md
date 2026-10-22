@@ -15,11 +15,11 @@ description: "Se definen y recopilan los datos esenciales de forma estandarizada
 Se definen y recopilan los datos esenciales de forma estandarizada, aplicando criterios de calidad y trazabilidad, los Principios FAIR y una asignación clara de roles para garantizar su uso posterior correcto y coherente. La recopilación de datos puede ser manual o automatizada, con mecanismos de calidad y estandarización adaptados a cada caso. Es importante evaluar si los datos están estructurados o no, por su impacto en la calidad, así como establecer responsabilidades para su mantenimiento y mejora cuando sea necesario.
 
 ## Requisitos
-* [ ] Hemos definido qué datos y metadatos son esenciales para el proyecto y cómo registrarlos de forma estandarizada.
-* [ ] Hemos establecido criterios para seleccionar herramientas de recopilación adecuadas (p. ej., REDCap).
-* [ ] Hemos definido estándares de calidad de los datos (p. ej., precisión, completitud, coherencia y fiabilidad).
-* [ ] Hemos implantado procesos de validación inicial para detectar errores o incoherencias.
-* [ ] Hemos aplicado los Principios FAIR desde la recopilación de los datos.
+* Hemos definido qué datos y metadatos son esenciales para el proyecto y cómo registrarlos de forma estandarizada.
+* Hemos establecido criterios para seleccionar herramientas de recopilación adecuadas (p. ej., REDCap).
+* Hemos definido estándares de calidad de los datos (p. ej., precisión, completitud, coherencia y fiabilidad).
+* Hemos implantado procesos de validación inicial para detectar errores o incoherencias.
+* Hemos aplicado los Principios FAIR desde la recopilación de los datos.
 
 ## Preguntas orientativas
 * ¿He identificado qué datos y metadatos son fundamentales para el proyecto y he definido cómo deben registrarse de forma estandarizada?

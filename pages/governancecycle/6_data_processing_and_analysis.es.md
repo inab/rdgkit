@@ -15,18 +15,18 @@ description: "Se garantiza que el procesamiento y el análisis sean seguros, tra
 Se garantiza que el procesamiento y el análisis sean seguros, trazables, reproducibles y de calidad, con roles, políticas, controles y auditorías definidos.
 
 ## Requisitos:
-* [ ] Hemos definido si el procesamiento y el análisis serán federados o centralizados.
-* [ ] Hemos establecido políticas de procesamiento de datos (p. ej., sobre datos sensibles y finalidades de uso).
-* [ ] Hemos determinado y especificado dónde se procesan los datos (p. ej., en instalaciones físicas locales, nacionales o europeas), garantizando el cumplimiento normativo y la seguridad de los datos.
-* [ ] Hemos definido los datos de entrada, obtenidos a través de repositorios específicos o soluciones estandarizadas, incluido el acceso programático cuando sea posible.
-* [ ] Hemos definido los resultados: qué conjuntos de datos se generan, dónde y cómo se ponen a disposición y cómo se automatiza su generación; además, hemos evaluado su calidad tras el procesamiento.
-* [ ] Hemos implantado controles técnicos y procedimentales para garantizar la trazabilidad, la integridad y la calidad.
-* [ ] Hemos implantado mecanismos de control técnico (p. ej., el marco de las cinco garantías, entornos seguros, autenticación y autorización).
-* [ ] Hemos establecido auditorías, planes de gestión de riesgos y mecanismos de trazabilidad para supervisar y detectar desviaciones.
-* [ ] Hemos realizado una revisión independiente de los resultados cuando ha sido necesario.
-* [ ] Hemos definido los requisitos de los programas informáticos necesarios para procesar y analizar los datos de forma eficiente.
-* [ ] Hemos definido cómo compartir y reutilizar los resultados derivados del análisis.
-* [ ] Hemos documentado los algoritmos, las secuencias de comandos y los flujos de análisis para garantizar la reproducibilidad.
+* Hemos definido si el procesamiento y el análisis serán federados o centralizados.
+* Hemos establecido políticas de procesamiento de datos (p. ej., sobre datos sensibles y finalidades de uso).
+* Hemos determinado y especificado dónde se procesan los datos (p. ej., en instalaciones físicas locales, nacionales o europeas), garantizando el cumplimiento normativo y la seguridad de los datos.
+* Hemos definido los datos de entrada, obtenidos a través de repositorios específicos o soluciones estandarizadas, incluido el acceso programático cuando sea posible.
+* Hemos definido los resultados: qué conjuntos de datos se generan, dónde y cómo se ponen a disposición y cómo se automatiza su generación; además, hemos evaluado su calidad tras el procesamiento.
+* Hemos implantado controles técnicos y procedimentales para garantizar la trazabilidad, la integridad y la calidad.
+* Hemos implantado mecanismos de control técnico (p. ej., el marco de las cinco garantías, entornos seguros, autenticación y autorización).
+* Hemos establecido auditorías, planes de gestión de riesgos y mecanismos de trazabilidad para supervisar y detectar desviaciones.
+* Hemos realizado una revisión independiente de los resultados cuando ha sido necesario.
+* Hemos definido los requisitos de los programas informáticos necesarios para procesar y analizar los datos de forma eficiente.
+* Hemos definido cómo compartir y reutilizar los resultados derivados del análisis.
+* Hemos documentado los algoritmos, las secuencias de comandos y los flujos de análisis para garantizar la reproducibilidad.
 
 ## Preguntas orientativas
 * ¿He definido si el procesamiento o el análisis de los datos serán federados o centralizados?

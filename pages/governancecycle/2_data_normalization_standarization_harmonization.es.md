@@ -14,11 +14,11 @@ description: "Se garantiza que los datos se transformen, estandaricen y versione
 Se garantiza que los datos se transformen, estandaricen y versionen de forma trazable y coherente mediante reglas uniformes, criterios de resolución de conflictos y prácticas que garanticen la reproducibilidad y la replicabilidad.
 
 ## Requisitos:
-* [ ] Hemos aplicado de forma coherente los estándares y las convenciones de nomenclatura uniformes definidos en el punto 0.
-* [ ] Hemos documentado todas las transformaciones de los datos, incluidas las reglas de normalización y las correspondencias entre fuentes, con documentación lógica, técnica y de verificación.
-* [ ] Hemos establecido criterios de resolución de conflictos y equivalencias entre dichos estándares.
-* [ ] Hemos versionado y documentado los procesos de extracción, transformación y carga (ETL) de los datos, así como su calidad, garantizando que cada etapa sea trazable y auditable.
-* [ ] Hemos garantizado la reproducibilidad y la replicabilidad de los datos (p. ej., mediante el control de versiones de conjuntos de datos y secuencias de comandos y la documentación de dependencias).
+* Hemos aplicado de forma coherente los estándares y las convenciones de nomenclatura uniformes definidos en el punto 0.
+* Hemos documentado todas las transformaciones de los datos, incluidas las reglas de normalización y las correspondencias entre fuentes, con documentación lógica, técnica y de verificación.
+* Hemos establecido criterios de resolución de conflictos y equivalencias entre dichos estándares.
+* Hemos versionado y documentado los procesos de extracción, transformación y carga (ETL) de los datos, así como su calidad, garantizando que cada etapa sea trazable y auditable.
+* Hemos garantizado la reproducibilidad y la replicabilidad de los datos (p. ej., mediante el control de versiones de conjuntos de datos y secuencias de comandos y la documentación de dependencias).
 
 ## Preguntas orientativas
 * ¿He documentado todas las transformaciones aplicadas a los datos (limpieza, normalización, etc.) desde el punto de vista lógico, técnico y de verificación?

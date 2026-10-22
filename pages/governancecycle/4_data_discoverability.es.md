@@ -16,13 +16,13 @@ description: "Se busca garantizar que los activos de datos sean fácilmente loca
 Se busca garantizar que los activos de datos sean fácilmente localizables, comprensibles y reutilizables por las personas autorizadas. Este ejercicio debe realizarse para cada tipo de datos del proyecto.
 
 ## Requisitos:
-* [ ] Hemos clasificado los tipos de datos disponibles y definido los metadatos obligatorios para cada tipo.
-* [ ] Hemos clasificado los conjuntos de datos según su nivel de sensibilidad y sus condiciones de uso.
-* [ ] Si los distintos tipos de datos pueden localizarse mediante catálogos, estos están estandarizados (p. ej., DCAT-AP).
-* [ ] Si las personas autorizadas localizan los datos y acceden a ellos en su fuente original, se tiene en cuenta la arquitectura de datos (centralizada, híbrida o federada).
-* [ ] Hemos definido políticas de acceso, uso y visibilidad según los tipos de datos y los permisos o licencias.
-* [ ] Hemos habilitado herramientas que facilitan la localización de datos de forma programática y eficiente (p. ej., mediante API).
-* [ ] Hemos definido indicadores clave de rendimiento (KPI) sobre la capacidad de descubrimiento de los datos y auditorías periódicas de cumplimiento.
+* Hemos clasificado los tipos de datos disponibles y definido los metadatos obligatorios para cada tipo.
+* Hemos clasificado los conjuntos de datos según su nivel de sensibilidad y sus condiciones de uso.
+* Si los distintos tipos de datos pueden localizarse mediante catálogos, estos están estandarizados (p. ej., DCAT-AP).
+* Si las personas autorizadas localizan los datos y acceden a ellos en su fuente original, se tiene en cuenta la arquitectura de datos (centralizada, híbrida o federada).
+* Hemos definido políticas de acceso, uso y visibilidad según los tipos de datos y los permisos o licencias.
+* Hemos habilitado herramientas que facilitan la localización de datos de forma programática y eficiente (p. ej., mediante API).
+* Hemos definido indicadores clave de rendimiento (KPI) sobre la capacidad de descubrimiento de los datos y auditorías periódicas de cumplimiento.
 
 ## Preguntas orientativas
 * ¿He analizado y clasificado todos los tipos de datos disponibles en el proyecto? ¿He definido los metadatos mínimos necesarios para cada tipo?

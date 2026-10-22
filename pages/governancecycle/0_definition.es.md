@@ -15,16 +15,16 @@ description: "Etapa inicial en la que se establecen los objetivos del proyecto, 
 Etapa inicial en la que se establecen los objetivos del proyecto, los roles y las responsabilidades, los mecanismos de calidad y supervisión y el alcance de los datos implicados, así como las normas básicas para acceder a ellos y utilizarlos de forma segura, ética y conforme a la normativa.
 
 ## Requisitos:
-* [ ] Hemos definido los objetivos del proyecto.
-* [ ] Hemos definido el uso primario de los datos en el proyecto.
-* [ ] Hemos definido el uso secundario de los datos en el proyecto.
-* [ ] Hemos definido los requisitos mínimos de gobernanza que deben tenerse en cuenta durante todo el proyecto (análisis de riesgos, roles y responsabilidades, calidad, seguridad...).
-* [ ] Hemos definido los indicadores de éxito de la gobernanza de datos durante todo el proyecto y cómo se medirán periódicamente.
-* [ ] Hemos considerado la aplicación de los Principios FAIR y de ciencia abierta durante todo el proyecto (p. ej., datos que cumplan los Principios FAIR desde el diseño).
-* [ ] Hemos definido los vocabularios comunes asociados al proyecto.
-* [ ] Hemos realizado una evaluación inicial de los riesgos de seguridad de los datos.
-* [ ] Hemos elaborado un Plan de Gestión de Datos (DMP) para recopilar, revisar y actualizar los aspectos de gobernanza necesarios para el correcto funcionamiento, la gestión y la sostenibilidad del proyecto. Este DMP se revisará y actualizará durante todo el proyecto.
-* [ ] Hemos decidido quién define los objetivos y los indicadores clave de rendimiento (KPI) y quién realiza su seguimiento (órgano de gobierno, comité, responsable, etc.), teniendo en cuenta la existencia de actividades centralizadas y distribuidas.
+* Hemos definido los objetivos del proyecto.
+* Hemos definido el uso primario de los datos en el proyecto.
+* Hemos definido el uso secundario de los datos en el proyecto.
+* Hemos definido los requisitos mínimos de gobernanza que deben tenerse en cuenta durante todo el proyecto (análisis de riesgos, roles y responsabilidades, calidad, seguridad...).
+* Hemos definido los indicadores de éxito de la gobernanza de datos durante todo el proyecto y cómo se medirán periódicamente.
+* Hemos considerado la aplicación de los Principios FAIR y de ciencia abierta durante todo el proyecto (p. ej., datos que cumplan los Principios FAIR desde el diseño).
+* Hemos definido los vocabularios comunes asociados al proyecto.
+* Hemos realizado una evaluación inicial de los riesgos de seguridad de los datos.
+* Hemos elaborado un Plan de Gestión de Datos (DMP) para recopilar, revisar y actualizar los aspectos de gobernanza necesarios para el correcto funcionamiento, la gestión y la sostenibilidad del proyecto. Este DMP se revisará y actualizará durante todo el proyecto.
+* Hemos decidido quién define los objetivos y los indicadores clave de rendimiento (KPI) y quién realiza su seguimiento (órgano de gobierno, comité, responsable, etc.), teniendo en cuenta la existencia de actividades centralizadas y distribuidas.
 
 ## Preguntas orientativas
 * ¿Hemos definido los aspectos clave y las responsabilidades dentro del proyecto?

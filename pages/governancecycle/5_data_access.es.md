@@ -14,12 +14,12 @@ description: "Se busca garantizar un acceso a los datos seguro, ético, controla
 Se busca garantizar un acceso a los datos seguro, ético, controlado y trazable, de acuerdo con las políticas, los roles y las normas aplicables.
 
 ## Requisitos:
-* [ ] Hemos constituido un Comité de Acceso a Datos (DAC) para evaluar las solicitudes de acceso según criterios éticos, legales y técnicos, teniendo en cuenta el principio de minimización de datos.
-* [ ] Desde el punto de vista técnico, hemos definido políticas de concesión y revocación de acceso por tipo de datos, incluidas las condiciones para su análisis en la nube (recomendado) o su descarga.
-* [ ] En caso de acceso en la nube, hemos definido quién puede utilizar los datos y cómo, así como la duración y las condiciones de renovación del acceso.
-* [ ] Hemos implantado mecanismos robustos de autenticación y registro de accesos.
-* [ ] Hemos establecido auditorías, gestión de riesgos y trazabilidad de los procesos para supervisar el cumplimiento y la seguridad.
-* [ ] Hemos definido cuáles de los puntos anteriores deben abordarse de forma general, en las políticas, y cuáles deben evaluarse para cada solicitud.
+* Hemos constituido un Comité de Acceso a Datos (DAC) para evaluar las solicitudes de acceso según criterios éticos, legales y técnicos, teniendo en cuenta el principio de minimización de datos.
+* Desde el punto de vista técnico, hemos definido políticas de concesión y revocación de acceso por tipo de datos, incluidas las condiciones para su análisis en la nube (recomendado) o su descarga.
+* En caso de acceso en la nube, hemos definido quién puede utilizar los datos y cómo, así como la duración y las condiciones de renovación del acceso.
+* Hemos implantado mecanismos robustos de autenticación y registro de accesos.
+* Hemos establecido auditorías, gestión de riesgos y trazabilidad de los procesos para supervisar el cumplimiento y la seguridad.
+* Hemos definido cuáles de los puntos anteriores deben abordarse de forma general, en las políticas, y cuáles deben evaluarse para cada solicitud.
 
 ## Preguntas orientativas
 * ¿Existe un Comité de Acceso a Datos (DAC) que evalúe todas las solicitudes de acceso?

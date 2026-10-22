@@ -17,11 +17,11 @@ type: lifecycle
 Se definen criterios claros de disponibilidad, almacenamiento, copias de seguridad y trazabilidad, así como los roles y permisos asociados. Este ejercicio debe realizarse para cada tipo de datos del proyecto. Es importante destacar que la disponibilidad de los datos puede variar con el tiempo (p. ej., por períodos de embargo antes de su apertura o publicación).
 
 ## Requisitos:
-* [ ] Hemos establecido criterios claros de disponibilidad teniendo en cuenta si la arquitectura de datos es centralizada, híbrida o federada (p. ej., interoperabilidad, control de acceso, etc.).
-* [ ] Hemos utilizado soluciones estandarizadas en lugar de repositorios específicos, garantizando que los distintos tipos de datos se almacenen de forma coherente, reutilizable y sostenible.
-* [ ] En caso de utilizar repositorios específicos, los hemos documentado adecuadamente (finalidad, tipo de datos, etc.).
-* [ ] Hemos implantado planes de copias de seguridad y seguimiento de incidencias.
-* [ ] Hemos documentado métricas de disponibilidad y trazabilidad para que los datos sean auditables y reproducibles con independencia de dónde se almacenen.
+* Hemos establecido criterios claros de disponibilidad teniendo en cuenta si la arquitectura de datos es centralizada, híbrida o federada (p. ej., interoperabilidad, control de acceso, etc.).
+* Hemos utilizado soluciones estandarizadas en lugar de repositorios específicos, garantizando que los distintos tipos de datos se almacenen de forma coherente, reutilizable y sostenible.
+* En caso de utilizar repositorios específicos, los hemos documentado adecuadamente (finalidad, tipo de datos, etc.).
+* Hemos implantado planes de copias de seguridad y seguimiento de incidencias.
+* Hemos documentado métricas de disponibilidad y trazabilidad para que los datos sean auditables y reproducibles con independencia de dónde se almacenen.
 
 ## Preguntas orientativas
 * ¿Se gestionan los datos de forma centralizada, híbrida o federada? En función de ello, ¿he establecido criterios claros de disponibilidad de los datos (p. ej., interoperabilidad)?

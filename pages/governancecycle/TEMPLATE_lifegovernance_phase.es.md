@@ -17,9 +17,9 @@ published: false
 [Descripción detallada de la etapa, sus objetivos principales, alcance y reglas básicas de uso o cumplimiento.]
 
 ## 2. Requisitos: {#requirements}
-* [ ] Requisito o tarea clave 1.
-* [ ] Requisito o tarea clave 2.
-* [ ] Requisito o tarea clave n.
+* Requisito o tarea clave 1.
+* Requisito o tarea clave 2.
+* Requisito o tarea clave n.
 
 ## 3. Preguntas orientativas {#questions}
 * ¿Pregunta clave orientativa 1?
