@@ -1,11 +1,13 @@
+title: "Roles"
+title_url: /pages/roles/
 subitems:
-  - title: Data Access Committee (DAC)
+  - title: "Comité de Acceso a Datos (DAC)"
     url: /pages/roles/dac.html
-  - title: Data Custodian
+  - title: "Custodio de datos"
     url: /pages/roles/data_custodian.html
-  - title: Data Owner
+  - title: "Propietario de datos"
     url: /pages/roles/data_owner.html
-  - title: Data Steward
+  - title: "Gestor de datos (Data Steward)"
     url: /pages/roles/data_steward.html
-  - title: Data Protection Officer (DPO)
+  - title: "Delegado de Protección de Datos (DPO)"
     url: /pages/roles/dpo.html

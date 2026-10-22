@@ -1,11 +1,13 @@
+title: "Niveles de Gobernanza"
+title_url: /pages/levels/
 subitems:
-  - title: 1. Normative / strategic
+  - title: "1. Normativo y estratégico"
     url: /pages/levels/1_normative_strategic.html
-  - title: 2. Organizational / institutional
+  - title: "2. Organizativo e institucional"
     url: /pages/levels/2_organizational_institutional.html
-  - title: 3. Procedural
+  - title: "3. Procedimental"
     url: /pages/levels/3_procedural.html
-  - title: 4. Technical / operative
+  - title: "4. Técnico y operativo"
     url: /pages/levels/4_technical_operative.html
-  - title: 5. Ethical / transversal
+  - title: "5. Ético y transversal"
     url: /pages/levels/5_ethical_transversal.html

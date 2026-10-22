@@ -1,4 +1,5 @@
 es:
+  home_title: "Research Data Governance Kit"
   nav_home: "Inicio"
   nav_governance_cycle: "Ciclo de gobernanza de datos"
   nav_governance_levels: "Niveles de gobernanza"
@@ -8,6 +9,7 @@ es:
   search_placeholder: "Buscar..."
   read_more: "Leer más"
 en:
+  home_title: "Research Data Governance Kit"
   nav_home: "Home"
   nav_governance_cycle: "Data governance cycle"
   nav_governance_levels: "Governance levels"

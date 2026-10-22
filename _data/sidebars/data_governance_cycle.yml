@@ -1,15 +1,17 @@
+title: "Ciclo de Gobernanza de Datos"
+title_url: /pages/governancecycle/
 subitems:
-  - title: "0. Definition"
+  - title: "0. Definición global del proyecto"
     url: /pages/governancecycle/0_definition.html
-  - title: "1. Data collection"
+  - title: "1. Colección de los datos"
     url: /pages/governancecycle/1_data_collection.html
-  - title: "2. Data normalization, standardization & harmonization"
+  - title: "2. Normalización, estandarización y armonización de los datos"
     url: /pages/governancecycle/2_data_normalization_standarization_harmonization.html
-  - title: "3. Data availability"
+  - title: "3. Disponibilidad de los datos"
     url: /pages/governancecycle/3_data_availability.html
-  - title: "4. Data discoverability"
+  - title: "4. Capacidad de descubrimiento de los datos"
     url: /pages/governancecycle/4_data_discoverability.html
-  - title: "5. Data access"
+  - title: "5. Acceso a los datos"
     url: /pages/governancecycle/5_data_access.html
-  - title: "6. Data processing and analysis"
+  - title: "6. Procesamiento y análisis de los datos"
     url: /pages/governancecycle/6_data_processing_and_analysis.html
