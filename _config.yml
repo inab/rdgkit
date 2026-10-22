@@ -26,6 +26,8 @@ theme_variables:
    
 exclude:
   - README.md
+  - Dockerfile
+  - docker-compose.yml
   - .gitignore
   - var/
   - vendor
