@@ -2,44 +2,44 @@
 lang: es
 permalink: /pages/governancecycle/5_data_access.html
 title: "5. Acceso a los datos"
-description: "Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules."
+description: "Se busca garantizar un acceso a los datos seguro, ético, controlado y trazable, de acuerdo con las políticas, los roles y las normas aplicables."
 ---
 
-> This version is the initial version under construction.
+> Esta es una versión inicial en desarrollo.
 {: .warning }
 
-## Description:
-Seeks to guarantee safe, ethical, controlled, and traceable access to data according to applicable policies, roles, and rules.
+## Descripción:
+Se busca garantizar un acceso a los datos seguro, ético, controlado y trazable, de acuerdo con las políticas, los roles y las normas aplicables.
 
-## Requirements:
-* [ ] We have established a Data Access Committee (DAC) to evaluate access requests according to ethical, legal, and technical criteria, keeping the "data minimisation" principle in mind.
-* [ ] At a technical level, we have defined access/revocation policies per data type, including conditions for cloud analysis (recommended) or download.
-* [ ] In case of cloud-based access, we have defined who can use the data and how, and the duration/renewal of access.
-* [ ] We have implemented robust authentication and access logging.
-* [ ] We have established audits, risk management, and process traceability to monitor compliance and security.
-* [ ] We have defined which of the mentioned points must be considered at a general level (policy-level) or per request.
+## Requisitos:
+* [ ] Hemos constituido un Comité de Acceso a Datos (DAC) para evaluar las solicitudes de acceso según criterios éticos, legales y técnicos, teniendo en cuenta el principio de minimización de datos.
+* [ ] Desde el punto de vista técnico, hemos definido políticas de concesión y revocación de acceso por tipo de datos, incluidas las condiciones para su análisis en la nube (recomendado) o su descarga.
+* [ ] En caso de acceso en la nube, hemos definido quién puede utilizar los datos y cómo, así como la duración y las condiciones de renovación del acceso.
+* [ ] Hemos implantado mecanismos robustos de autenticación y registro de accesos.
+* [ ] Hemos establecido auditorías, gestión de riesgos y trazabilidad de los procesos para supervisar el cumplimiento y la seguridad.
+* [ ] Hemos definido cuáles de los puntos anteriores deben abordarse de forma general, en las políticas, y cuáles deben evaluarse para cada solicitud.
 
-## Questions like ...
-* Is there a Data Access Committee (DAC) to evaluate all access requests?
-* Have I clearly defined who can access and use data and the duration/renewal of access in cloud environments?
-* Are there specific access requirements for cloud analysis (SPE) versus local data download?
-* Are all data accesses logged?
-* Are there risk management policies, process traceability, and periodic audits to ensure compliance and security of data access?
-* Which of these measures apply generally versus specifically? Have I documented this clearly?
+## Preguntas orientativas
+* ¿Existe un Comité de Acceso a Datos (DAC) que evalúe todas las solicitudes de acceso?
+* ¿He definido claramente quién puede acceder a los datos y utilizarlos, así como la duración y las condiciones de renovación del acceso en entornos en la nube?
+* ¿Existen requisitos de acceso específicos para el análisis en la nube mediante entornos de procesamiento seguro (SPE), frente a la descarga local de datos?
+* ¿Se registran todos los accesos a los datos?
+* ¿Existen políticas de gestión de riesgos, trazabilidad de los procesos y auditorías periódicas para garantizar el cumplimiento y la seguridad del acceso a los datos?
+* ¿Cuáles de estas medidas se aplican de forma general y cuáles de forma específica? ¿Lo he documentado claramente?
 
 ## Roles
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Specific practices
-* **Practices that should be avoided:** Using governance regulations in a non-standardized manner.
-* **Practices that should be standardized:** Using existing governance regulations such as ISO/IEC 38505-1, GDPR, National Security Scheme (ENS), European Health Data Space (EHDS), and Digital Governance Act (DGA).
+## Prácticas específicas
+* **Prácticas que deben evitarse:** Aplicar la normativa de gobernanza de forma no estandarizada.
+* **Prácticas que deben estandarizarse:** Aplicar las normas y los marcos de gobernanza existentes, como ISO/IEC 38505-1, el Reglamento General de Protección de Datos (GDPR), el Esquema Nacional de Seguridad (ENS), el Espacio Europeo de Datos de Salud (EHDS) y el Reglamento de Gobernanza de Datos (DGA).
 
-## Tools and resources
+## Herramientas y recursos
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Training
+## Formación
 * Lorem Ipsum
 * Lorem Ipsum
 
@@ -48,6 +48,6 @@ Seeks to guarantee safe, ethical, controlled, and traceable access to data accor
 
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 
-## Security
+## Seguridad
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.

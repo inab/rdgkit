@@ -3,43 +3,43 @@ lang: es
 permalink: /pages/governancecycle/3_data_availability.html
 title: "3. Disponibilidad de los datos"
 page_id: dataAvailability
-description: "Availability, storage, back-up, traceability, and clear associated roles and permissions criteria are defined for each data type in the project."
+description: "Se definen criterios claros de disponibilidad, almacenamiento, copias de seguridad y trazabilidad, así como los roles y permisos asociados, para cada tipo de datos del proyecto."
 type: lifecycle
 ---
 
-> This version is the initial version under construction.
+> Esta es una versión inicial en desarrollo.
 {: .warning }
 
 
-## Description:
-Availability, storage, back-up, traceability, and clear associated roles and permissions criteria are defined. This exercise must be done for each data type in the project. It is important to emphasize that data availability may vary over time (e.g. embargo periods for data before opening or publishing them).
+## Descripción:
+Se definen criterios claros de disponibilidad, almacenamiento, copias de seguridad y trazabilidad, así como los roles y permisos asociados. Este ejercicio debe realizarse para cada tipo de datos del proyecto. Es importante destacar que la disponibilidad de los datos puede variar con el tiempo (p. ej., por períodos de embargo antes de su apertura o publicación).
 
-## Requirements:
-* [ ] We have established clear availability criteria considering whether data is centralized, hybrid, or federated (e.g. interoperability, access control, etc.).
-* [ ] We have used standardized solutions versus ad-hoc repositories, ensuring data types are stored consistently, reusable, and sustainably.
-* [ ] In case of using ad-hoc repositories, we have documented them properly (purpose, data type, etc.).
-* [ ] We have implemented back-up plans and incident monitoring.
-* [ ] We have documented availability and traceability metrics so that data is auditable and reproducible regardless of where it is stored.
+## Requisitos:
+* [ ] Hemos establecido criterios claros de disponibilidad teniendo en cuenta si la arquitectura de datos es centralizada, híbrida o federada (p. ej., interoperabilidad, control de acceso, etc.).
+* [ ] Hemos utilizado soluciones estandarizadas en lugar de repositorios específicos, garantizando que los distintos tipos de datos se almacenen de forma coherente, reutilizable y sostenible.
+* [ ] En caso de utilizar repositorios específicos, los hemos documentado adecuadamente (finalidad, tipo de datos, etc.).
+* [ ] Hemos implantado planes de copias de seguridad y seguimiento de incidencias.
+* [ ] Hemos documentado métricas de disponibilidad y trazabilidad para que los datos sean auditables y reproducibles con independencia de dónde se almacenen.
 
-## Questions like ...
-* Is data managed centrally, hybrid, or federated? Based on that, have I established clear data availability criteria (e.g. interoperability)?
-* What storage solutions have been implemented so data is robust and reusable sustainably? Is the use of standardized solutions prioritized over ad-hoc solutions?
-* Have I implemented back-up, recovery, and incident monitoring plans? Do they help make data available sustainably?
-* Have I documented metrics to ensure data is auditable and reproducible regardless of where it is stored?
+## Preguntas orientativas
+* ¿Se gestionan los datos de forma centralizada, híbrida o federada? En función de ello, ¿he establecido criterios claros de disponibilidad de los datos (p. ej., interoperabilidad)?
+* ¿Qué soluciones de almacenamiento se han implantado para garantizar la robustez y la reutilización sostenible de los datos? ¿Se priorizan las soluciones estandarizadas frente a las soluciones específicas?
+* ¿He implantado planes de copias de seguridad, recuperación y seguimiento de incidencias? ¿Contribuyen a que los datos estén disponibles de forma sostenible?
+* ¿He documentado métricas para garantizar que los datos sean auditables y reproducibles con independencia de dónde se almacenen?
 
 ## Roles
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Specific practices
-* **Practices that should be avoided:** Using governance regulations in a non-standardized manner.
-* **Practices that should be standardized:** Using existing governance regulations such as ISO/IEC 38505-1, GDPR, National Security Scheme (ENS), European Health Data Space (EHDS), and Digital Governance Act (DGA).
+## Prácticas específicas
+* **Prácticas que deben evitarse:** Aplicar la normativa de gobernanza de forma no estandarizada.
+* **Prácticas que deben estandarizarse:** Aplicar las normas y los marcos de gobernanza existentes, como ISO/IEC 38505-1, el Reglamento General de Protección de Datos (GDPR), el Esquema Nacional de Seguridad (ENS), el Espacio Europeo de Datos de Salud (EHDS) y el Reglamento de Gobernanza de Datos (DGA).
 
-## Tools and resources
+## Herramientas y recursos
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Training
+## Formación
 * Lorem Ipsum
 * Lorem Ipsum
 
@@ -48,6 +48,6 @@ Availability, storage, back-up, traceability, and clear associated roles and per
 
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 
-## Security
+## Seguridad
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.

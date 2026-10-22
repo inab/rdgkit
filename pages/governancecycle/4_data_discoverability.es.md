@@ -3,48 +3,48 @@ lang: es
 permalink: /pages/governancecycle/4_data_discoverability.html
 title: "4. Capacidad de descubrimiento de los datos"
 page_id: dataDiscoverability
-description: "Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users for each data type in the project."
+description: "Se busca garantizar que los activos de datos sean fácilmente localizables, comprensibles y reutilizables por las personas autorizadas, para cada tipo de datos del proyecto."
 ---
 
-> This version is the initial version under construction.
+> Esta es una versión inicial en desarrollo.
 {: .warning }
 
 
-## Description:
-Seeks to ensure data assets are easily locatable, understandable, and reusable by authorized users. This exercise must be done for each data type in the project.
+## Descripción:
+Se busca garantizar que los activos de datos sean fácilmente localizables, comprensibles y reutilizables por las personas autorizadas. Este ejercicio debe realizarse para cada tipo de datos del proyecto.
 
-## Requirements:
-* [ ] We have classified available data types and defined mandatory metadata for each type.
-* [ ] We have classified datasets according to their sensitivity level and conditions of use.
-* [ ] If different data types are discoverable through catalogues, these are standardized (e.g. DCAT-AP).
-* [ ] If authorized users locate and access data at its original source, data architecture is taken into account (centralized, hybrid, or federated data).
-* [ ] We have defined access, use, and visibility policies according to data types and permissions/licenses.
-* [ ] We have enabled tools that facilitate discoverability programmatically and efficiently (e.g. APIs).
-* [ ] We have defined discoverability KPIs and periodic compliance audits.
+## Requisitos:
+* [ ] Hemos clasificado los tipos de datos disponibles y definido los metadatos obligatorios para cada tipo.
+* [ ] Hemos clasificado los conjuntos de datos según su nivel de sensibilidad y sus condiciones de uso.
+* [ ] Si los distintos tipos de datos pueden localizarse mediante catálogos, estos están estandarizados (p. ej., DCAT-AP).
+* [ ] Si las personas autorizadas localizan los datos y acceden a ellos en su fuente original, se tiene en cuenta la arquitectura de datos (centralizada, híbrida o federada).
+* [ ] Hemos definido políticas de acceso, uso y visibilidad según los tipos de datos y los permisos o licencias.
+* [ ] Hemos habilitado herramientas que facilitan la localización de datos de forma programática y eficiente (p. ej., mediante API).
+* [ ] Hemos definido indicadores clave de rendimiento (KPI) sobre la capacidad de descubrimiento de los datos y auditorías periódicas de cumplimiento.
 
-## Questions like ...
-* Have I analyzed and classified all available data types in the project? Have I defined the minimum metadata needed for each type?
-* Have I applied recognized standards (e.g. DCAT-AP) to ensure data is discoverable and reusable from catalogues?
-* Have I considered architecture (centralized, hybrid, or federated) for "at source" discoverable data?
-* Have I defined clear access and visibility policies according to data types and corresponding permissions?
-* Are datasets classified according to sensitivity level and protected via appropriate access controls?
-* Have I enabled tools helping programmatic discoverability? Which ones and how do they integrate into the data flow?
-* Have I defined metrics to evaluate and measure data discoverability sustainably?
-* Have I defined and disseminated procedures for periodic audits ensuring compliance with regulations and standards?
+## Preguntas orientativas
+* ¿He analizado y clasificado todos los tipos de datos disponibles en el proyecto? ¿He definido los metadatos mínimos necesarios para cada tipo?
+* ¿He aplicado estándares reconocidos (p. ej., DCAT-AP) para garantizar que los datos sean localizables y reutilizables a través de catálogos?
+* ¿He tenido en cuenta la arquitectura (centralizada, híbrida o federada) de los datos que pueden localizarse en su fuente original?
+* ¿He definido políticas claras de acceso y visibilidad según los tipos de datos y los permisos correspondientes?
+* ¿Están clasificados los conjuntos de datos según su nivel de sensibilidad y protegidos mediante controles de acceso adecuados?
+* ¿He habilitado herramientas que faciliten la localización programática de los datos? ¿Cuáles y cómo se integran en el flujo de datos?
+* ¿He definido métricas para evaluar y medir de forma sostenible la capacidad de descubrimiento de los datos?
+* ¿He definido y difundido procedimientos de auditoría periódica que garanticen el cumplimiento de la normativa y los estándares?
 
 ## Roles
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Specific practices
-* **Practices that should be avoided:** Using governance regulations in a non-standardized manner.
-* **Practices that should be standardized:** Using existing governance regulations such as ISO/IEC 38505-1, GDPR, National Security Scheme (ENS), European Health Data Space (EHDS), and Digital Governance Act (DGA).
+## Prácticas específicas
+* **Prácticas que deben evitarse:** Aplicar la normativa de gobernanza de forma no estandarizada.
+* **Prácticas que deben estandarizarse:** Aplicar las normas y los marcos de gobernanza existentes, como ISO/IEC 38505-1, el Reglamento General de Protección de Datos (GDPR), el Esquema Nacional de Seguridad (ENS), el Espacio Europeo de Datos de Salud (EHDS) y el Reglamento de Gobernanza de Datos (DGA).
 
-## Tools and resources
+## Herramientas y recursos
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Training
+## Formación
 * Lorem Ipsum
 * Lorem Ipsum
 
@@ -53,6 +53,6 @@ Seeks to ensure data assets are easily locatable, understandable, and reusable b
 
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 
-## Security
+## Seguridad
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.

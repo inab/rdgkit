@@ -2,43 +2,43 @@
 lang: es
 permalink: /pages/governancecycle/1_data_collection.html
 title: "1. Colección de los datos"
-description: "Essential data is defined and collected in a standardized way, applying quality, traceability, FAIR principles, and clear roles to guarantee its subsequent correct and consistent use."
+description: "Se definen y recopilan los datos esenciales de forma estandarizada, aplicando criterios de calidad y trazabilidad, los Principios FAIR y una asignación clara de roles para garantizar su uso posterior correcto y coherente."
 
 ---
 
-> This version is the initial version under construction.
+> Esta es una versión inicial en desarrollo.
 {: .warning }
 
-## Description
-Essential data is defined and collected in a standardized way, applying quality, traceability, FAIR principles, and clear roles to guarantee its subsequent correct and consistent use. Data collection can be manual or automated (with quality and standardization mechanisms adapted to each case). It is important to assess whether data is structured or not, due to its impact on quality, as well as to establish responsibilities for its maintenance and improvement if necessary.
+## Descripción
+Se definen y recopilan los datos esenciales de forma estandarizada, aplicando criterios de calidad y trazabilidad, los Principios FAIR y una asignación clara de roles para garantizar su uso posterior correcto y coherente. La recopilación de datos puede ser manual o automatizada, con mecanismos de calidad y estandarización adaptados a cada caso. Es importante evaluar si los datos están estructurados o no, por su impacto en la calidad, así como establecer responsabilidades para su mantenimiento y mejora cuando sea necesario.
 
-## Requirements
-* [ ] We have defined what data and metadata are essential for the project and how to record them in a standardized way.
-* [ ] We have established criteria to select appropriate collection tools (e.g. RedCap).
-* [ ] We have defined data quality standards (e.g. precision, completeness, consistency, and reliability).
-* [ ] We have implemented initial validation processes to detect errors and/or inconsistencies.
-* [ ] We have applied FAIR principles from data collection.
+## Requisitos
+* [ ] Hemos definido qué datos y metadatos son esenciales para el proyecto y cómo registrarlos de forma estandarizada.
+* [ ] Hemos establecido criterios para seleccionar herramientas de recopilación adecuadas (p. ej., REDCap).
+* [ ] Hemos definido estándares de calidad de los datos (p. ej., precisión, completitud, coherencia y fiabilidad).
+* [ ] Hemos implantado procesos de validación inicial para detectar errores o incoherencias.
+* [ ] Hemos aplicado los Principios FAIR desde la recopilación de los datos.
 
-## Questions like ...
-* Have I identified what data and metadata are critical for the project and defined how they should be recorded in a standardized way?
-* What tools will I use to collect the data? Why? Are they standard and validated?
-* Have I established clear data quality criteria that must be met during collection?
-* Have I implemented controls and validations that help me detect errors or inconsistencies when collecting data?
-* Have I ensured that data follows FAIR principles from its collection?
+## Preguntas orientativas
+* ¿He identificado qué datos y metadatos son fundamentales para el proyecto y he definido cómo deben registrarse de forma estandarizada?
+* ¿Qué herramientas utilizaré para recopilar los datos? ¿Por qué? ¿Están estandarizadas y validadas?
+* ¿He establecido criterios claros de calidad de los datos que deban cumplirse durante la recopilación?
+* ¿He implantado controles y validaciones que me ayuden a detectar errores o incoherencias al recopilar datos?
+* ¿He garantizado que los datos cumplan los Principios FAIR desde su recopilación?
 
 ## Roles
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Specific practices
-* **Practices that should be avoided:** Using governance regulations in a non-standardized manner.
-* **Practices that should be standardized:** Using existing governance regulations such as ISO/IEC 38505-1, GDPR, National Security Scheme (ENS), European Health Data Space (EHDS), and Digital Governance Act (DGA).
+## Prácticas específicas
+* **Prácticas que deben evitarse:** Aplicar la normativa de gobernanza de forma no estandarizada.
+* **Prácticas que deben estandarizarse:** Aplicar las normas y los marcos de gobernanza existentes, como ISO/IEC 38505-1, el Reglamento General de Protección de Datos (GDPR), el Esquema Nacional de Seguridad (ENS), el Espacio Europeo de Datos de Salud (EHDS) y el Reglamento de Gobernanza de Datos (DGA).
 
-## Tools and resources
+## Herramientas y recursos
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Training
+## Formación
 * Lorem Ipsum
 * Lorem Ipsum
 
@@ -47,6 +47,6 @@ Essential data is defined and collected in a standardized way, applying quality,
 
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 
-## Security
+## Seguridad
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.

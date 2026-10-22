@@ -2,42 +2,42 @@
 lang: es
 permalink: /pages/governancecycle/2_data_normalization_standarization_harmonization.html
 title: "3. Normalización, estandarización y harmonización de los datos"
-description: "Ensures that data is transformed, standardized, and versioned in a traceable and consistent manner by applying uniform rules, conflict resolution, and practices that guarantee reproducibility and replicability."
+description: "Se garantiza que los datos se transformen, estandaricen y versionen de forma trazable y coherente mediante reglas uniformes, criterios de resolución de conflictos y prácticas que garanticen la reproducibilidad y la replicabilidad."
 ---
 
-> This version is the initial version under construction.
+> Esta es una versión inicial en desarrollo.
 {: .warning }
 
-## Description:
-Ensures that data is transformed, standardized, and versioned in a traceable and consistent manner by applying uniform rules, conflict resolution, and practices that guarantee reproducibility and replicability.
+## Descripción:
+Se garantiza que los datos se transformen, estandaricen y versionen de forma trazable y coherente mediante reglas uniformes, criterios de resolución de conflictos y prácticas que garanticen la reproducibilidad y la replicabilidad.
 
-## Requirements:
-* [ ] We have applied uniform standards and naming conventions defined in point 0 in a consistent manner.
-* [ ] We have documented all data transformations, including normalization rules and mapping between sources (including logical, technical, and verification documentation).
-* [ ] We have established conflict resolution criteria and equivalences between such standards.
-* [ ] We have versioned and documented the extraction, transformation, and load processes (ETL pipeline) of the data as well as their quality, ensuring that each stage is traceable and auditable.
-* [ ] We have guaranteed data reproducibility and replicability (e.g. versioning of datasets/scripts, documentation of dependencies, etc.).
+## Requisitos:
+* [ ] Hemos aplicado de forma coherente los estándares y las convenciones de nomenclatura uniformes definidos en el punto 0.
+* [ ] Hemos documentado todas las transformaciones de los datos, incluidas las reglas de normalización y las correspondencias entre fuentes, con documentación lógica, técnica y de verificación.
+* [ ] Hemos establecido criterios de resolución de conflictos y equivalencias entre dichos estándares.
+* [ ] Hemos versionado y documentado los procesos de extracción, transformación y carga (ETL) de los datos, así como su calidad, garantizando que cada etapa sea trazable y auditable.
+* [ ] Hemos garantizado la reproducibilidad y la replicabilidad de los datos (p. ej., mediante el control de versiones de conjuntos de datos y secuencias de comandos y la documentación de dependencias).
 
-## Questions like ...
-* Have I documented all transformations applied to data (cleaning, normalization, etc.) at a logical, technical, and verification level?
-* Have I applied standards (e.g. SNOMED, ICD-10, OMOP...) and nomenclatures to each data type? Do they facilitate data interpretation and use? Are they consistent and uniform?
-* If my project has different data standards or formats, what criteria do I use to resolve conflicts or equivalences between them?
-* Have I versioned and documented the ETL pipeline of the data? How? Does this help make each stage traceable, auditable, and with defined quality and security controls?
-* How is data reproducibility and replicability ensured? (e.g. data provenance)
+## Preguntas orientativas
+* ¿He documentado todas las transformaciones aplicadas a los datos (limpieza, normalización, etc.) desde el punto de vista lógico, técnico y de verificación?
+* ¿He aplicado estándares (p. ej., SNOMED, ICD-10, OMOP...) y nomenclaturas a cada tipo de datos? ¿Facilitan su interpretación y uso? ¿Son coherentes y uniformes?
+* Si mi proyecto utiliza distintos estándares o formatos de datos, ¿qué criterios aplico para resolver los conflictos o establecer equivalencias entre ellos?
+* ¿He versionado y documentado el flujo de extracción, transformación y carga (ETL) de los datos? ¿Cómo? ¿Contribuye esto a que cada etapa sea trazable, auditable y disponga de controles de calidad y seguridad definidos?
+* ¿Cómo se garantizan la reproducibilidad y la replicabilidad de los datos (p. ej., mediante el registro de su procedencia)?
 
 ## Roles
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Specific practices
-* **Practices that should be avoided:** Using governance regulations in a non-standardized manner.
-* **Practices that should be standardized:** Using existing governance regulations such as ISO/IEC 38505-1, GDPR, National Security Scheme (ENS), European Health Data Space (EHDS), and Digital Governance Act (DGA).
+## Prácticas específicas
+* **Prácticas que deben evitarse:** Aplicar la normativa de gobernanza de forma no estandarizada.
+* **Prácticas que deben estandarizarse:** Aplicar las normas y los marcos de gobernanza existentes, como ISO/IEC 38505-1, el Reglamento General de Protección de Datos (GDPR), el Esquema Nacional de Seguridad (ENS), el Espacio Europeo de Datos de Salud (EHDS) y el Reglamento de Gobernanza de Datos (DGA).
 
-## Tools and resources
+## Herramientas y recursos
 * Lorem Ipsum
 * Lorem Ipsum
 
-## Training
+## Formación
 * Lorem Ipsum
 * Lorem Ipsum
 
@@ -46,6 +46,6 @@ Ensures that data is transformed, standardized, and versioned in a traceable and
 
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 
-## Security
+## Seguridad
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor malesuada aliquet. Sed nec neque suscipit nunc dictum elementum ut vitae arcu. Sed eleifend ut tortor sed consequat. Ut id pulvinar magna. Nunc ut nisi erat. Donec at semper lectus. Vivamus rutrum lacinia libero, eget vestibulum turpis accumsan nec. Praesent non semper felis. Proin venenatis suscipit nisi, et dignissim odio varius quis. Phasellus eu elit in augue convallis scelerisque. Mauris sit amet leo arcu.

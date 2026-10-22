@@ -12,32 +12,32 @@ published: false
 
 # [Nombre de la Fase o Sección]
 
-## 1. Description: {#description}
+## 1. Descripción: {#description}
 [Descripción detallada de la etapa, sus objetivos principales, alcance y reglas básicas de uso o cumplimiento.]
 
-## 2. Requirements: {#requirements}
+## 2. Requisitos: {#requirements}
 * [ ] Requisito o tarea clave 1.
 * [ ] Requisito o tarea clave 2.
 * [ ] Requisito o tarea clave n.
 
-## 3. Questions like ... {#questions}
+## 3. Preguntas orientativas {#questions}
 * ¿Pregunta clave orientativa 1?
 * ¿Pregunta clave orientativa 2?
 
 ## 4. Roles: {#roles}
 * **[Rol implicado]**: Responsabilidades principales y funciones específicas dentro de esta fase.
 
-## 5. Specific practices: {#practices}
+## 5. Prácticas específicas: {#practices}
 * Descripción de las prácticas recomendadas, flujos de trabajo o directrices técnicas y operativas.
 
-## 6. Tools and resources: {#tools}
+## 6. Herramientas y recursos: {#tools}
 * Enlaces a herramientas, plantillas, formularios o guías externas aplicables.
 
-## 7. Training: {#training}
+## 7. Formación: {#training}
 * Recursos formativos, materiales de apoyo o sesiones recomendadas para los equipos.
 
 ## 8. ELSI: {#elsi}
-* Consideraciones éticas, legales y sociales (Ethical, Legal and Social Implications) asociadas.
+* Implicaciones éticas, legales y sociales (ELSI) asociadas.
 
-## 9. Security: {#security}
+## 9. Seguridad: {#security}
 * Medidas de seguridad, control de accesos, cifrado o restricciones aplicadas a esta fase.
