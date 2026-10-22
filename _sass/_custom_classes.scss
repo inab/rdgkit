@@ -189,10 +189,10 @@ section#search-section {
     to right,
     #ffffff 0%,
     #d9e2ec 5%,
-    #93a5c2 25%,
-    #41658a 45%,
-    #1d3b6a 60%,
-    #1b234b 75%,
+    #93a5c2 15%,
+    #41658a 35%,
+    #1d3b6a 50%,
+    #1b234b 65%,
     #191e42 100%
   );
 }
@@ -202,7 +202,7 @@ section#search-section {
     text-transform: uppercase;
     font-size: 0.9rem;
     letter-spacing: 0.5px;
-    color: $light !important; /* Blanco roto para legibilidad sobre fondo oscuro */
+    color: $nav-links !important; /* Blanco roto para legibilidad sobre fondo oscuro */
     transition: color 0.2s ease-in-out;
 
     &:hover,
