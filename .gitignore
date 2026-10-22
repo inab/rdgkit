@@ -13,6 +13,7 @@ Gemfile.lock
 # --- IDEs and Text Editors ---
 .idea/
 .vscode/
+*.code-workspace
 
 # --- System Files ---
 .DS_Store
