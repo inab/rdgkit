@@ -202,13 +202,13 @@ section#search-section {
     text-transform: uppercase;
     font-size: 0.9rem;
     letter-spacing: 0.5px;
-    color: $nav-links !important; /* Blanco roto para legibilidad sobre fondo oscuro */
+    color: $light !important; /* Blanco roto para legibilidad sobre fondo oscuro */
     transition: color 0.2s ease-in-out;
 
     &:hover,
     &:focus,
     &.active {
-        color: $primary !important; /* Cambia a tu verde esmeralda al interactuar */
+        color: $nav-links !important; /* Cambia a tu verde esmeralda al interactuar */
     }
 }
 
