@@ -22,7 +22,7 @@ theme_variables:
   headings:
     resource-table-all-collapse: true
   topnav:
-   brand_logo: assets/img/RDGkit_Logo_Colour.svg
+   brand_logo: assets/img/logos/RDGkit_Logo_Colour.svg
    
 exclude:
   - README.md

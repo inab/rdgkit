@@ -27,5 +27,5 @@ columns:
   - type: image
     image_width: 120px
     width: 3
-    src: 'assets/img/06_Powered_by_IMPaCT_Data_compact_negative.png'
+    src: 'assets/img/logos/06_Powered_by_IMPaCT_Data_compact_negative.png'
     alt: Powered by IMPaCT Data logo
