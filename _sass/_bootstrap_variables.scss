@@ -1,10 +1,12 @@
 /*-----Theme colors-----*/
 $white: #ffffff;
-$primary: #129884; /* Nuevo color de acento principal (verde/teal) */
-$secondary: #2b4f8d; /* Azul oscuro corporativo */
+$color-primary-dark: #003B75;
+$color-primary-light: #1993b5;
+$primary: $color-primary-light;
+$secondary: $color-primary-dark;
 $gray-600: #73757d;
 $blue: #376ac3;
-$blue-impact: #003B75;
+$blue-impact: $color-primary-dark;
 $light: #f8f9fa;
 $nav-links: #6deedb;
 $light-x: #e9ecef;

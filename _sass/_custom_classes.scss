@@ -1,9 +1,15 @@
 /*-----General styling-----*/
 
-@include media-breakpoint-up(lg) {
-    main h1:not(.has-subtitle):not(.blurb-title),
-    main .h1:not(.has-subtitle) {
-        margin-top: -1rem;
+.rdg-interior {
+    .rdg-hero-banner {
+        margin-bottom: 1.5rem;
+    }
+
+    #main h1,
+    #main .h1 {
+        margin-top: 0;
+        font-size: 2rem;
+        line-height: 1.25;
     }
 }
 
@@ -20,22 +26,6 @@
             color: $primary !important;
         }
 
-        #layout {
-            gap: 0 !important;
-        }
-        header nav.navbar {
-            margin-bottom: 0 !important;
-            border-bottom: 4px solid $primary; /* Detalle corporativo de IMPaCT */
-        }
-        aside#sidebar {
-            padding-top: $spacer * 3;
-            padding-right: 0.9rem;
-        }
-        main#main {
-            padding-top: $spacer * 3;
-            padding-left: 2.1rem;
-            background-color: $white;
-        }
         background: linear-gradient(to right, $light 0 50%, $body-bg 50% 100%);    
     }
 }
@@ -184,31 +174,201 @@ section#search-section {
 }
 
 /*-----Top navigation-----*/
-.navbar {
-    background: linear-gradient(
-    to right,
-    #ffffff 0%,
-    #d9e2ec 5%,
-    #93a5c2 15%,
-    #41658a 35%,
-    #1d3b6a 50%,
-    #1b234b 65%,
-    #191e42 100%
-  );
+header .navbar {
+    background: $white;
+    box-shadow: none !important;
+    margin-bottom: 0 !important;
+    padding-block: 0.6rem;
 }
 .navbar-nav .nav-item > a {
     white-space: nowrap;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 0.5px;
-    color: $light !important; /* Blanco roto para legibilidad sobre fondo oscuro */
+    font-size: 0.75rem;
+    color: $color-primary-dark !important;
+    background-color: transparent;
     transition: color 0.2s ease-in-out;
 
     &:hover,
     &:focus,
     &.active {
-        color: $nav-links !important; /* Cambia a tu verde esmeralda al interactuar */
+        color: $color-primary-light !important;
+    }
+}
+
+header .navbar .navbar-brand {
+    flex: 0 0 auto !important;
+    margin-right: 1rem;
+
+    img {
+        width: 110px;
+        height: auto;
+    }
+}
+
+header .navbar #search-input {
+    min-width: 0;
+}
+
+header .navbar .input-group {
+    max-width: 9rem;
+}
+
+@include media-breakpoint-up(lg) {
+    header .navbar > .container {
+        max-width: 1440px;
+    }
+}
+
+@include media-breakpoint-between(lg, xl) {
+    .navbar-nav .nav-item > a {
+        font-size: 0.65rem;
+    }
+
+    header .navbar .navbar-nav {
+        gap: 0.25rem !important;
+    }
+}
+
+/*-----RDG homepage-----*/
+.rdg-home {
+    background: #f8fafc;
+
+    > .container {
+        max-width: 1200px;
+        background: $white;
+    }
+
+    #main.rdg-home-main {
+        min-height: 0;
+        padding: 1.25rem 0 1.75rem;
+    }
+}
+
+.rdg-hero-banner {
+    background: linear-gradient(90deg, $color-primary-dark 0%, $color-primary-light 55%, #159b80 100%);
+    padding: 0.75rem 1rem;
+    text-align: center;
+
+    h1,
+    .rdg-hero-title {
+        margin: 0;
+        color: $white;
+        font-family: $font-family-theme;
+        font-size: clamp(1.75rem, 3.2vw, 3rem);
+        font-weight: 700;
+        line-height: 1.25;
+    }
+}
+
+.rdg-card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.25rem;
+    align-items: start;
+}
+
+.rdg-card {
+    min-width: 0;
+    border: 2px solid $color-primary-light;
+    border-radius: 1.5rem;
+    background: $white;
+    text-align: center;
+
+    > summary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 15rem;
+        padding: 1rem 1.75rem 1.5rem;
+        cursor: pointer;
+        list-style: none;
+        border-radius: inherit;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &:focus-visible {
+            outline: 3px solid $color-primary-dark;
+            outline-offset: 4px;
+        }
+    }
+
+    .rdg-card-icon {
+        display: block;
+        width: 72px;
+        max-width: 100%;
+        height: 72px;
+        object-fit: contain;
+        margin: 0 auto 1rem;
+    }
+
+    #main & .rdg-card-title {
+        margin: 0 0 0.5rem;
+        padding: 0;
+        border: 0;
+        color: $color-primary-dark;
+        font-family: $font-family-theme;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .rdg-card-description {
+        display: block;
+        margin: 0;
+        color: #000000;
+        font-size: 1rem;
+        line-height: 1.25;
+    }
+
+    .rdg-card-links {
+        margin: 0 1.75rem 1.5rem;
+        padding-left: 1.25rem;
+        text-align: left;
+
+        a {
+            display: inline-block;
+            padding-block: 0.25rem;
+        }
+    }
+
+    &[open] > summary {
+        border-bottom: 1px solid $light-x;
+        margin-bottom: 1rem;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .rdg-card-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1.25rem;
+    }
+
+    .rdg-card > summary {
+        min-height: 0;
+        padding: 1.25rem;
+    }
+}
+
+/*-----Footer-----*/
+#footer {
+    background: $color-primary-dark;
+    color: $white;
+
+    .copyright {
+        background: $color-primary-dark;
+        font-size: 0.75rem;
+    }
+
+    a {
+        color: $white !important;
+        font-weight: 700;
+
+        &:hover,
+        &:focus-visible {
+            text-decoration: underline;
+        }
     }
 }
 

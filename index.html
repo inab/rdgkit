@@ -1,27 +1,20 @@
 ---
 lang: es
+layout: home
 permalink: /
 title: "Kit de Gobernanza de Datos de Investigación"
 description: "Un conjunto de herramientas de orientación para la Gobernanza de Datos de Investigación a lo largo de su ciclo de vida."
 toc: false
 ---
 
-<div class="alert alert-warning" role="alert">
-  <strong>Advertencia:</strong> Esta es la versión inicial, actualmente en desarrollo.
-</div>
-
-<hr class="my-4">
-
-<h2>Explorar por</h2>
-
-<div class="row">
-  <!-- Tarjeta 1: Ciclo de vida de los datos -->
-  <div class="col-md-6 mb-4">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="card-title">Ciclo de gobernanza de los datos</h3>
-        <p class="card-text">Empieza aquí para obtener una visión general de la gobernanza de los datos de investigación, estructurada según las distintas etapas del ciclo de vida de los datos.</p>
-        <ul>
+<div class="rdg-card-grid">
+  <details class="rdg-card">
+    <summary>
+      <img class="rdg-card-icon" src="{{ '/assets/img/icons/RDGkit_Icon_DataGovCycle.svg' | relative_url }}" width="72" height="72" alt="">
+      <h2 class="rdg-card-title no-anchor">Ciclo de gobernanza de los datos</h2>
+      <span class="rdg-card-description">Empieza aquí para obtener una visión general de la gobernanza de los datos de investigación, estructurada según las distintas etapas del ciclo de vida de los datos.</span>
+    </summary>
+    <ul class="rdg-card-links">
           <li><a href="{{ '/pages/governancecycle/0_definition.html' | relative_url }}">0. Definición global del proyecto</a></li>
           <li><a href="{{ '/pages/governancecycle/1_data_collection.html' | relative_url }}">1. Colección de los datos</a></li>
           <li><a href="{{ '/pages/governancecycle/2_data_normalization_standarization_harmonization.html' | relative_url }}">2. Normalización, estandarización y harmonización de los datos</a></li>
@@ -29,58 +22,45 @@ toc: false
           <li><a href="{{ '/pages/governancecycle/4_data_discoverability.html' | relative_url }}">4. Capacidad de descubrimiento de los datos</a></li>
           <li><a href="{{ '/pages/governancecycle/5_data_access.html' | relative_url }}">5. Acceso a los datos</a></li>
           <li><a href="{{ '/pages/governancecycle/6_data_processing_and_analysis.html' | relative_url }}">6. Procesamiento y análisis de los datos</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- Tarjeta 2: Niveles de gobernanza -->
-  <div class="col-md-6 mb-4">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="card-title">Niveles de gobernanza</h3>
-        <p class="card-text">Explora los distintos niveles de gobernanza de datos dentro de una organización.</p>
-        <ul>
+    </ul>
+  </details>
+  <details class="rdg-card">
+    <summary>
+      <img class="rdg-card-icon" src="{{ '/assets/img/icons/RDGkit_Icon_GovLevels.svg' | relative_url }}" width="72" height="72" alt="">
+      <h2 class="rdg-card-title no-anchor">Niveles de gobernanza</h2>
+      <span class="rdg-card-description">Explora los distintos niveles de gobernanza de datos dentro de una organización.</span>
+    </summary>
+    <ul class="rdg-card-links">
           <li><a href="{{ '/pages/levels/1_normative_strategic.html' | relative_url }}">1. Normativo y estratégico</a></li>
           <li><a href="{{ '/pages/levels/2_organizational_institutional.html' | relative_url }}">2. Organizativo e institucional</a></li>
           <li><a href="{{ '/pages/levels/3_procedural.html' | relative_url }}">3. Procedimental</a></li>
           <li><a href="{{ '/pages/levels/4_technical_operative.html' | relative_url }}">4. Técnico y operativo</a></li>
           <li><a href="{{ '/pages/levels/5_ethical_transversal.html' | relative_url }}">5. Ético y transversal</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <!-- Tarjeta 3: Roles -->
-  <div class="col-md-6 mb-4">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="card-title">Roles</h3>
-        <p class="card-text">Identifica tu papel en la gobernanza de los datos de investigación y encuentra recursos relevantes para tu función.</p>
-        <ul>
+    </ul>
+  </details>
+  <details class="rdg-card">
+    <summary>
+      <img class="rdg-card-icon" src="{{ '/assets/img/icons/RDGkit_Icon_Roles.svg' | relative_url }}" width="72" height="72" alt="">
+      <h2 class="rdg-card-title no-anchor">Roles</h2>
+      <span class="rdg-card-description">Identifica tu papel en la gobernanza de los datos de investigación y encuentra recursos relevantes para tu función.</span>
+    </summary>
+    <ul class="rdg-card-links">
           <li><a href="{{ '/pages/roles/data_owner.html' | relative_url }}">Propietario de datos</a></li>
           <li><a href="{{ '/pages/roles/data_steward.html' | relative_url }}">Gestor de datos (Data Steward)</a></li>
           <li><a href="{{ '/pages/roles/data_custodian.html' | relative_url }}">Custodio de datos</a></li>
           <li><a href="{{ '/pages/roles/dac.html' | relative_url }}">Comité de Acceso a Datos (DAC)</a></li>
           <li><a href="{{ '/pages/roles/dpo.html' | relative_url }}">Delegado de Protección de Datos (DPO)</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- Tarjeta 4: Recursos -->
-  <div class="col-md-6 mb-4">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="card-title">Herramientas y recursos</h3>
-        <p class="card-text">Encuentra directrices prácticas, formularios y soluciones para abordar tareas habituales de gobernanza de datos.</p>
-        <ul>
+    </ul>
+  </details>
+  <details class="rdg-card">
+    <summary>
+      <img class="rdg-card-icon" src="{{ '/assets/img/icons/RDGkit_Icon_Resources.svg' | relative_url }}" width="72" height="72" alt="">
+      <h2 class="rdg-card-title no-anchor">Herramientas y recursos</h2>
+      <span class="rdg-card-description">Encuentra directrices prácticas, formularios y soluciones para abordar tareas habituales de gobernanza de datos.</span>
+    </summary>
+    <ul class="rdg-card-links">
           <li><a href="{{ '/pages/resources/requirements_checklist.html' | relative_url }}">Lista de verificación de requisitos</a></li>
           <li><a href="{{ '/pages/resources/providers_form.html' | relative_url }}">Formulario para proveedores</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+    </ul>
+  </details>
 </div>

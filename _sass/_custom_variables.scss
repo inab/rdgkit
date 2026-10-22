@@ -2,13 +2,13 @@
 $font-family-theme: "Exo 2", sans-serif;
 
 /*-----Top navigation-----*/
-$topnav-bg: $blue-impact;
-$topnav-title-color: $white;
-$topnav-brand-height: 45px;
-$topnav-link-color: $white;
-$topnav-link-color-active: $white;
-$topnav-link-bg-active: $primary;
-$topnav-break-color: rgba($white, 0.30);
+$topnav-bg: $white;
+$topnav-title-color: $color-primary-dark;
+$topnav-brand-height: 36px;
+$topnav-link-color: $color-primary-dark;
+$topnav-link-color-active: $color-primary-light;
+$topnav-link-bg-active: transparent;
+$topnav-break-color: rgba($color-primary-dark, 0.15);
 
 /*-----Sidebar-----*/
 $sidebar-title-bg: $light;
@@ -24,9 +24,9 @@ $nav-card-bg-hover: $light-x;
 $nav-card-arrow-bg: rgba($primary, 0.15);
 
 /*-----Footer-----*/
-$footer-bg: $dark; /* Cambio a oscuro para contrastar con el nav */
-$footer-color: $light;
+$footer-bg: $color-primary-dark;
+$footer-color: $white;
 $footer-link-color: $white;
-$footer-link-color-hover: $primary;
-$footer-copyright-bg: rgba(0, 0, 0, 0.5);
-$footer-ett: $light;
+$footer-link-color-hover: $white;
+$footer-copyright-bg: $color-primary-dark;
+$footer-ett: $white;

@@ -26,10 +26,19 @@ SOFTWARE.
 <!doctype html>
 <html lang="{{ site.active_lang | default: site.default_lang }}">
 {% include head.html %}
-<body class=""{% if page.toc or page.toc == nil %} data-bs-spy="scroll" data-bs-target="#toc-contents" data-bs-smooth-scroll="true" tabindex="0"{% endif %}>
+<body class="{% if page.layout == 'home' %}rdg-home{% elsif page.layout == 'page' %}rdg-interior{% endif %}"{% if page.toc or page.toc == nil %} data-bs-spy="scroll" data-bs-target="#toc-contents" data-bs-smooth-scroll="true" tabindex="0"{% endif %}>
     {% if site.topnav_banner %}{% include banner.html %}{% endif %}
     {% if jekyll.environment == "development" and site.theme_variables.dev-info-banner == true %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=site.theme_variables.topnav.search %}
+    {% if page.layout == 'home' or page.layout == 'page' %}
+    <section class="rdg-hero-banner" aria-labelledby="rdg-hero-title">
+        {% if page.layout == 'home' %}
+        <h1 id="rdg-hero-title">{{ site.data.translations[site.active_lang].home_title | escape }}</h1>
+        {% else %}
+        <p id="rdg-hero-title" class="rdg-hero-title">{{ page.parent | default: page.title | default: site.title | escape }}</p>
+        {% endif %}
+    </section>
+    {% endif %}
     <!-- Page Content -->
     <div class="container g-lg-5">
         <!-- Content Row -->
