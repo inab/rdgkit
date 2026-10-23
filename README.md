@@ -82,7 +82,7 @@ Brand colors are defined as `$color-primary-dark` (`#003B75`) and
 Theme component variables live in `_sass/_custom_variables.scss`, and the
 `.rdg-hero-banner`, `.rdg-card-grid`, and `.rdg-card` rules are in
 `_sass/_custom_classes.scss`. Navigation and footer styling reuse the theme's
-HTML and require no additional include overrides.
+HTML; the footer include adds optional links for image columns.
 
 ## Interior page navigation and banner
 
@@ -183,3 +183,16 @@ and Open Graph image paths in `elixir-toolkit-theme` 6.1.0. Keep it in sync
 with the upstream include when upgrading the theme. Manifest icon paths are
 relative to the manifest in `assets/img/favicons/`, so they also work when
 the site is deployed under a subpath.
+
+[`_includes/footer.html`](./_includes/footer.html) extends the theme 6.1.0
+footer with an optional `external_url` for image columns. The IMPaCT-Data
+column uses the compact negative SVG and links to <https://impact-data.bsc.es/>.
+Keep this override synchronized with the theme when upgrading.
+The ETT logo uses the theme's dark fill (`$footer-ett: $dark`) with a white,
+rounded SVG background in `_sass/_custom_classes.scss` so its lettering stays
+visible on the blue footer.
+
+When pruning images, check full asset paths as well as filenames to distinguish
+duplicates. Also follow references inside SVGs, stylesheets, and the linked
+web manifest: its two `web-app-manifest-*.png` icons are required even though
+their names do not appear in page source.

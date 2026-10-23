@@ -27,5 +27,6 @@ columns:
   - type: image
     image_width: 120px
     width: 3
-    src: 'assets/img/logos/06_Powered_by_IMPaCT_Data_compact_negative.png'
+    src: 'assets/img/logos/02_Impulsado_por_IMPaCT_Data_compact_negative.svg'
+    external_url: 'https://impact-data.bsc.es/'
     alt: Powered by IMPaCT Data logo
